@@ -1,0 +1,109 @@
+{
+  "nab_repo_raw_base": "https://raw.githubusercontent.com/numenta/NAB/master",
+  "labels_file": "labels/combined_windows.json",
+  "selected_files": {
+    "realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv": "AWS CloudWatch",
+    "realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv": "AWS CloudWatch",
+    "realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv": "AWS CloudWatch",
+    "realTweets/Twitter_volume_AAPL.csv": "Twitter",
+    "realTweets/Twitter_volume_AMZN.csv": "Twitter",
+    "realTraffic/TravelTime_387.csv": "Traffic",
+    "realTraffic/TravelTime_451.csv": "Traffic",
+    "realKnownCause/ambient_temperature_system_failure.csv": "Known Cause",
+    "realKnownCause/machine_temperature_system_failure.csv": "Known Cause",
+    "realKnownCause/nyc_taxi.csv": "Known Cause",
+    "realAWSCloudwatch/elb_request_count_8c0756.csv": "AWS CloudWatch",
+    "realAdExchange/exchange-4_cpm_results.csv": "Ad Exchange",
+    "realKnownCause/cpu_utilization_asg_misconfiguration.csv": "Known Cause",
+    "realTraffic/speed_t4013.csv": "Traffic",
+    "realTweets/Twitter_volume_IBM.csv": "Twitter",
+    "realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv": "AWS CloudWatch",
+    "realKnownCause/ec2_request_latency_system_failure.csv": "Known Cause",
+    "realTraffic/speed_7578.csv": "Traffic",
+    "realTweets/Twitter_volume_CVS.csv": "Twitter",
+    "realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv": "AWS CloudWatch",
+    "realTraffic/occupancy_t4013.csv": "Traffic",
+    "realTweets/Twitter_volume_KO.csv": "Twitter",
+    "realTraffic/speed_6005.csv": "Traffic"
+  },
+  "split": {
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "test_fraction": 0.2
+  },
+  "window_sizes": [
+    30,
+    50,
+    100
+  ],
+  "run_seeds": [
+    15,
+    42,
+    123
+  ],
+  "numpy_seed": 42,
+  "eda_rolling_window": 50,
+  "high_variance_percentile": 75.0,
+  "threshold_grids": {
+    "fixed_percentiles": [
+      95.0,
+      97.0,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      99.7,
+      99.9,
+      99.95,
+      99.99
+    ],
+    "fixed_k_values": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0
+    ],
+    "mad_lambda_values": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      16.0,
+      20.0,
+      30.0,
+      50.0,
+      100.0
+    ]
+  },
+  "model": {
+    "hidden_size": 64,
+    "latent_size": 32,
+    "epochs": 40,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "patience": 6
+  },
+  "normal_only_training": true,
+  "validation_fpr_budget": 0.05,
+  "mad_relative_floor": 0.001
+}

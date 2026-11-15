@@ -1,0 +1,5 @@
+domain,datasets,files_with_train_anomaly_labels,files_with_validation_anomaly_labels,files_with_test_labels,files_with_complete_test_events,total_test_positive_points,total_complete_test_events
+AWS CloudWatch,3,2,2,1,1,402,2
+Known Cause,3,3,2,3,3,1551,5
+Traffic,2,2,1,0,0,0,0
+Twitter,2,2,1,0,0,0,0

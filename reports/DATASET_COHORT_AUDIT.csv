@@ -1,0 +1,24 @@
+dataset,domain,train_anomaly_points,validation_anomaly_points,test_anomaly_points,test_complete_anomaly_events,test_partial_anomaly_events_excluded,cohort_source,test_role
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,0,0,402,2,0,legacy_V1_dataset,event_evaluable
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,0,0,403,1,0,screened_addition,event_evaluable
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,201,0,201,1,0,screened_addition,event_evaluable
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,0,201,201,1,0,screened_addition,event_evaluable
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,82,41,41,1,0,screened_addition,event_evaluable
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,363,0,363,1,0,legacy_V1_dataset,event_evaluable
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,0,0,1499,1,0,screened_addition,event_evaluable
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,135,0,211,2,0,screened_addition,event_evaluable
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,1134,567,567,1,0,legacy_V1_dataset,event_evaluable
+realKnownCause/nyc_taxi.csv,Known Cause,207,207,621,3,0,legacy_V1_dataset,event_evaluable
+realTraffic/occupancy_t4013.csv,Traffic,0,0,250,2,0,screened_addition,event_evaluable
+realTraffic/speed_6005.csv,Traffic,0,0,239,1,0,screened_addition,event_evaluable
+realTraffic/speed_7578.csv,Traffic,29,29,58,2,0,screened_addition,event_evaluable
+realTraffic/speed_t4013.csv,Traffic,0,0,250,2,0,screened_addition,event_evaluable
+realTweets/Twitter_volume_CVS.csv,Twitter,1129,0,397,1,0,screened_addition,event_evaluable
+realTweets/Twitter_volume_IBM.csv,Twitter,795,0,795,1,0,screened_addition,event_evaluable
+realTweets/Twitter_volume_KO.csv,Twitter,529,529,529,1,0,screened_addition,event_evaluable
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,201,201,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,201,201,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels
+realTraffic/TravelTime_387.csv,Traffic,181,68,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels
+realTraffic/TravelTime_451.csv,Traffic,217,0,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels
+realTweets/Twitter_volume_AAPL.csv,Twitter,1588,0,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels
+realTweets/Twitter_volume_AMZN.csv,Twitter,790,790,0,0,0,legacy_V1_dataset,negative_only_no_positive_test_labels

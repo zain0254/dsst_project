@@ -1,0 +1,829 @@
+dataset,domain,window_size,method,method_name,f1_mean_across_seeds,f1_std_across_seeds,fpr_mean_across_seeds,fpr_std_across_seeds,nab_style_mean_across_seeds,nab_style_std_across_seeds,seed_runs
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.17855053264889328,0.013287128732604618,0.1069958847736625,0.01140444976177039,-33.99864988108574,6.589306081686903,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.1857426013000761,0.0036792727775930272,0.11687242798353903,0.017517528110117503,-43.37019076776054,14.156133442282346,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.15233737512392276,0.007267208927940353,0.07572016460905347,0.010279832096129059,29.584813349166684,12.865194047733025,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.19460802588156123,0.057450830494550846,0.08230452674897117,0.012179957684731504,15.08491432952419,22.608461668114213,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.2098969872285356,0.031956807885016265,0.08641975308641973,0.008553337321327778,27.13873175152968,8.109218593869953,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.08746453410305648,0.004755735253444152,0.05102880658436207,0.007127781101106501,48.395602030686966,7.787879046989889,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.2027073455644884,0.001190167530797019,0.10205761316872423,0.0071277811011065065,-9.614570415682472,4.41944969987307,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,0.2376721549135342,0.023505991551102747,0.14238683127572013,0.015086668954587101,-43.914678378309794,15.889255155174979,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.11329011883779445,0.0002468200167857851,0.07654320987654317,0.0024691358024691544,31.97277347771176,2.7499999999999973,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.16994594999723525,0.016070837580788675,0.12345679012345671,0.0,-2.3422336462890936,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.17697361497280037,0.012579325401702814,0.12592592592592586,0.004276668660663939,-5.09223364628908,4.763139720814389,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.05564248204908364,0.0002969972448944122,0.042798353909464966,0.005702224880885225,57.36852994370395,6.060216897683444,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.3278688524590163,0.0,0.2666666666666666,0.0,-138.3573388409804,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,0.39814235437309736,0.00045729627746633115,0.0008230452674897001,0.0014255562202212775,45.70905081938215,1.437115866720553,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.1663286004056795,0.0,0.12345679012345671,0.0,-48.88100369817905,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.2512998532014654,0.02723512678494052,0.145679012345679,0.0,-68.48864427621186,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.41730193808630506,0.0022661868910752126,0.19670781893004108,0.001425556220221277,-77.96664038196258,0.8805453222249993,3
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.047870173858983366,0.01786002183292885,0.04362139917695467,0.0071277811011065,14.874617881545298,5.429212011164557,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.05369681949607594,0.0007154278428620059,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.049153242461792625,0.0014308556857239598,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.051631557207765334,0.0018928441532242279,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.04295745559686077,0.0007154278428620114,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0495662949194547,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0239570425444031,0.002861711371447971,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.028913672036348564,0.0014308556857239563,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03387030152829403,0.0007154278428620114,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.004956629491945467,0.0021462835285859646,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.004543577034283299,0.0028617113714479725,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.005782734407269667,0.003785688306448439,,,3
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0508054522924411,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0726972325485336,0.0007154278428619493,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.07641470466749274,0.008250716379776197,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.04130524576621227,0.02612046551633606,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.037587773647253166,0.0018928441532242248,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.014869888475836366,0.002478314745972749,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.021065675340768236,0.004292567057171928,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0132176786451879,0.0018928441532242133,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0099132589838909,0.0012391573729863999,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.009087154068566633,0.0007154278428620073,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.014043783560512132,0.0007154278428620073,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.009500206526228768,0.0007154278428620073,,,3
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.016109045848822768,0.002146283528585966,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.04502271788517137,0.017538929157837408,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.03758777364725314,0.013016068778677206,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.19165634035522505,0.009625097230674106,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.17141676992978103,0.020184703383511943,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.18009087154068562,0.02052417719752968,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.15406856670797187,0.01718516651194938,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.00041305245766209996,0.0007154278428619498,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.15902519619991737,0.012412209170852277,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.19413465510119784,0.026730590148473274,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.19413465510119784,0.02133127027455654,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.11235026848409742,0.014938571928975701,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.1350681536555142,0.001239157372986393,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.2428748451053283,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.2478314745972738,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.10491532424617923,0.0014308556857239568,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.1135894258570838,0.008250716379776191,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.08756712102437007,0.022589853637133943,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1164807930607187,0.03496093179595016,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.12680710450227176,0.02864392969448296,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.07517554729450637,0.008250716379776236,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.08674101610904579,0.028981451210722455,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.09458901280462617,0.014254798782930523,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.12102437009500204,0.01860112391441174,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.12432878975629903,0.016172467534450147,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.08963238331268066,0.010092351691756006,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.11813300289136718,0.0149385719289757,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.1011978521272201,0.03507785831567478,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0937629078893019,0.038837914904308976,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1082197439074762,0.03711960667271534,,,3
+realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.08963238331268068,0.0050079949000339345,,,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.48561565017261216,0.0,0.6311881188118812,0.0,-734.5509986486965,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.4873563218390804,0.0,0.6311881188118812,0.0,-734.4717302725562,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.10452993990283298,0.0029985327603370754,0.004950495049504933,0.00495049504950495,97.18701685004861,2.8427318882534736,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.12411821228526564,0.005033497390108513,0.0,0.0,95.56201006983626,2.938201139884093,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.1283768926033175,0.005096361696172094,0.0008250825082507999,0.001429084824726753,98.92055249576977,0.059236158675728165,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.11747149637667577,0.007089824567628968,0.020627062706270568,0.0051526386125399296,80.88787889971664,7.606610181718826,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.4697674418604651,0.0,0.6311881188118812,0.0,-735.3037779098621,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,0.4727268154352077,0.0010237286194673771,0.6311881188118812,0.0,-734.5509986486965,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.13991144452883217,0.01832715952850187,0.009900990099009866,0.008574508948360805,77.81411874097871,19.046433464213212,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.17238604648923272,0.009594111393383255,0.0082508250825082,0.003781003048643416,77.51395331007545,9.657286374271678,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.17955504220078208,0.011465739956498903,0.0057755775577557665,0.005152638612539929,84.99560110269331,8.159085563928556,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.10679318694827244,0.0039009103378829105,0.011551155115511533,0.005152638612539929,80.53643639108256,4.516497945759359,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.4679860302677532,0.0,0.6311881188118812,0.0,-735.3919356014609,0.0,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,0.46381276422498247,0.0010357159759833245,0.6311881188118812,0.0,-735.601379688551,0.05252538692787035,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.31756239641891626,0.04611215466021973,0.009900990099009866,0.008924631869960349,80.61500914458834,17.279400907482017,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.3544278962731342,0.03798403978184691,0.008250825082508234,0.008692783624465943,82.67883755455368,17.76919186972649,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.3553709366352617,0.036536376169161985,0.009075907590759066,0.008692783624465943,81.82547852009218,17.755261496604806,3
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.3074882366911038,0.07847976963210992,0.012376237623762333,0.011343009145930259,74.64746437835936,23.030773191645153,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0016522098306484666,0.0028617113714479144,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.05039239983477894,0.008434769870575029,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.05534902932672444,0.017971342352587422,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.08508880627839731,0.010538910220713,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.02726146220570007,0.018253927958681818,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.06278397356464266,0.001892844153224269,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.11069805865344894,0.0046913740981415104,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.14993804213135067,0.004467845446671612,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.014869888475836366,0.011820807948165346,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.002891367203634833,0.003983333647663349,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0334572490706319,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1239157372986369,0.0012391573729864068,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1263940520446096,0.0,,,3
+realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0037174721189591003,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.10169491525423724,0.0018347995842891171,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.18785310734463279,0.0006115998614296846,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0286016949152542,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.04766949152542369,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0508474576271186,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.012005649717514067,0.0012231997228593704,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.09322033898305081,0.0010593220338982988,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.2740112994350283,0.0006115998614296787,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0444915254237288,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0794491525423728,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0826271186440678,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.010946327683615767,0.0006115998614296856,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0699152542372881,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.3474576271186441,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0550847457627118,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1059322033898305,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1080508474576271,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03778248587570613,0.021195266523247058,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.08591491119372159,0.009300561957205857,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0916976456009913,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.14085088806278392,0.004691374098141471,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0243700950020652,0.0007154278428619493,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.07682775712515484,0.008585134114343859,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1090458488228005,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.14745972738537785,0.008585134114343845,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.023130937629078835,0.0014308556857239563,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.08426270136307308,0.0,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.19743907476249478,0.006824746650912168,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1957868649318463,0.004467845446671623,,,3
+realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0256092523750516,0.00515902354266697,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04584882280049563,0.0024783147459727477,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.04956629491945474,0.002478314745972752,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.04956629491945474,0.002478314745972752,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.04171829822387437,0.010318047085333987,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.038000826104915265,0.002579511771333465,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.043783560512184995,0.003118477668430732,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.04254440313919863,0.0031184776684306877,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.07228418009087152,0.01053891022071299,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.09169764560099124,0.0021462835285859724,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.12143742255266417,0.0021462835285859685,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.11565468814539444,0.00726079959985418,,,3
+realAWSCloudwatch/ec2_network_in_257a54.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.08550185873605942,0.023543990086741046,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.040254237288135535,0.005605405320052124,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.03884180790960446,0.004010528492796841,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0328389830508474,0.006946439114726661,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.04766949152542369,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.05896892655367231,0.009009428546732411,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.037782485875706165,0.004410309320902843,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0180084745762711,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.054378531073446264,0.0006115998614296877,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0423728813559322,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0794491525423728,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0805084745762711,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.05120056497175137,0.0032362822704490243,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0699152542372881,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0699152542372881,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0529661016949152,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.11793785310734457,0.0006115998614296877,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1207627118644067,0.0,,,3
+realAWSCloudwatch/ec2_network_in_5abac7.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0677966101694915,0.0028027026600260354,,,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.38934717634104127,0.003941341397481458,0.10066006600660064,0.0016501650165016528,-233.38985620696818,5.275991559090087,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.3388240650070567,0.006864421973702018,0.0,0.0,95.91679117032986,0.0,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.13794306127083453,0.0015819130055386853,0.024752475247524733,0.004365926255882144,18.982073266358796,11.989163391386558,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.18077549208228505,0.00044858501009998453,0.017051705170517035,0.0009527232164845019,41.23594674443617,2.975227127972719,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.18051871500147362,0.0008933359602845669,0.0176017601760176,0.0019054464329690604,39.52392866519475,5.940529424695334,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.06390002830872503,0.008840731305604988,0.0181518151815181,0.0,39.50171703458808,0.0,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.45973432808585474,0.0007858418904219153,0.07370737073707366,0.05383518474418954,-149.4232464490232,178.17533652194555,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,0.41101734793111017,0.010921423356066868,0.0,0.0,93.07754010377988,0.0,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.14402343691248673,0.0038609302972399916,0.044004400440044,0.007621785731876247,-43.695864716551434,17.900950279908074,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.16405360152323514,0.03017555705821075,0.03575357535753573,0.01073664537730648,-21.781285752463376,33.74031815268692,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.16386700650905392,0.03049268917306091,0.0363036303630363,0.009900990099009903,-23.614619085796715,31.009403622311734,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.12899524364740064,0.04802695861394909,0.03575357535753573,0.01954824603291182,-16.63034274651898,62.59638064891637,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.5838150289017341,0.0,0.0726072607260726,0.0,-120.04461264580148,2.899295700877587,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,0.6688741721854304,0.0,0.0,0.0,93.07754010377988,0.0,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.4015748031496063,0.0,0.0033003300330033,0.0,86.10227936748156,0.0,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.4387065563158224,0.0030388172869753563,0.0011001100110011,0.0019054464329690617,93.43561270081489,6.3508529610858755,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.4302854496906409,0.01126770520577233,0.0033003300330033,0.0057163392989071846,86.10227936748156,19.052558883257646,3
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.31066126855600534,0.03810641747502539,0.008800880088008766,0.0025206686990956,68.05490060845689,8.226375941785701,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.1555333998005982,0.0,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.1555333998005982,0.0,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.11757903130942453,0.0038531435896573575,0.024894514767932464,0.005270040504977536,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.17858530147463472,0.002920450420133398,0.035864978902953565,0.016520482658609198,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.17696262803191798,0.003165388256734226,0.03797468354430373,0.017123733238567942,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.103407287695938,0.011137612099259994,0.0215189873417721,0.013396209169947281,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.1555333998005982,0.0,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,0.1555333998005982,0.0,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.17501358801149158,0.0018828101021790681,0.013924050632911333,0.002192469376669478,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.3023459030718558,0.0030270431536458873,0.013924050632911333,0.002192469376669478,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.29887020493956906,0.002958047884707752,0.016455696202531633,0.0021924693766694767,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.033470366563891664,0.008129186729597011,0.0025316455696202,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.1555333998005982,0.0,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,0.16224883330702292,0.002789942492941994,1.0,0.0,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.32106277253828214,0.004566810769373384,0.012236286919831167,0.0007308231255564732,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.5285259351217143,0.004767884233065978,0.008860759493670867,0.0021924693766694767,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.5230860940728393,0.002682528063152544,0.011392405063291101,0.001265822784810099,,,3
+realAWSCloudwatch/grok_asg_anomaly.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.06599597585513077,0.0076670257075483654,0.0021097046413501666,0.0007308231255564729,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.022757697456492598,0.014103954153751996,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.04417670682730923,0.0175056182471513,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.029451137884872802,0.018549406239024124,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.05756358768406957,0.032461460918292225,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.09638554216867468,0.02508031324657989,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1659973226238286,0.04256522917157872,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.16867469879518068,0.03955364579034583,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.09638554216867469,0.0321285140562249,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.5087014725568942,0.022118757218016462,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.41633199464524767,0.18983427816337373,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.48192771084337344,0.1640698651872731,,,3
+realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.32663989290495316,0.18024628512166851,,,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0,0.0,0.007150715071507133,0.012385401814298872,-23.653645438446205,40.96931568360864,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.021034503967033564,0.01292086892715089,0.024752475247524733,0.012888200785324521,17.54580843170688,39.14715925026915,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.005797539826577933,0.0050213862057978745,0.04455445544554454,0.004365926255882179,-62.66051873285068,49.25236402304074,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.06707584862409884,0.016637877965234034,0.0643564356435643,0.0066006600660066025,-94.36258267410803,20.29928241161406,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,0.3988095238095238,0.0,1.0,0.0,-2930.825003458412,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.07556451828239454,0.024502450886832006,0.0038503850385038,0.001905446432969062,86.48634316544708,6.358204998319959,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.5667079719124329,0.0014308556857239789,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,,,0.5667079719124329,0.0014308556857239789,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.05369681949607594,0.003118477668430688,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.04584882280049563,0.00655700448838809,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.05369681949607594,0.017928570354573084,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0334572490706319,0.013964594386102409,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.6228831061544816,0.0061126181689173074,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,fixed_percentile,Fixed percentile,,,0.6274266831887649,0.008791324516229961,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0561751342420487,0.010318047085334037,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.06484923585295327,0.011513721490926354,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.06939281288723666,0.004292567057171927,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03965303593556377,0.0012391573729863496,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.6943411813300289,0.09627489913252658,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,fixed_percentile,Fixed percentile,,,0.7265592730276745,0.10445981508530687,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0400660883932259,0.0037856883064484328,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.06691449814126389,0.004467845446671622,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.06608839322593967,0.0035771392143099856,,,3
+realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv,AWS CloudWatch,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0545229244114002,0.014074122294424474,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04410256410256407,0.0064051261522034796,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.06666666666666661,0.014540971157700335,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0707692307692307,0.011094003924504575,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.030769230769230698,0.0030769230769230986,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.001025641025641,0.0017764623667372657,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.001025641025641,0.0017764623667372657,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.005128205128205067,0.0017764623667373234,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.006153846153846134,0.006153846153846151,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,,,0.006153846153846134,0.006153846153846151,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0225641025641025,0.0064051261522034934,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.025641025641025567,0.006405126152203478,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.025641025641025567,0.006405126152203478,,,3
+realAdExchange/exchange-2_cpc_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.007179487179487134,0.0047000776358521795,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.019487179487179433,0.001776462366737323,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,,,0.026666666666666634,0.011649042760615977,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.001025641025641,0.0017764623667372657,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.018461538461538436,0.031976322601271534,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.019487179487179467,0.033752784968008855,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.024615384615384567,0.005329387100211914,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.05538461538461534,0.00615384615384615,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.053333333333333295,0.026528240320774478,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.037948717948717896,0.03458403138479455,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0676923076923076,0.0,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04717948717948717,0.015178101114819223,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0451282051282051,0.014540971157700332,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.04820512820512816,0.01694637091472642,,,3
+realAdExchange/exchange-2_cpm_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03589743589743583,0.006405126152203477,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.06277056277056274,0.018745138610052798,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0833333333333333,0.001874513861005311,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0833333333333333,0.001874513861005311,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.11255411255411246,0.003749027722010557,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.16558441558441553,0.02027596752726754,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.20779220779220778,0.05632906354836843,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.1309523809523809,0.008170816488388289,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.12878787878787873,0.034716482537544266,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.03463203463203463,0.05998444355216891,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpc_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.30844155844155846,0.03687602821948232,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.10822510822510821,0.0104368514729361,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,,,0.10389610389610389,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0043290043290042995,0.007498055444021064,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0010822510822510666,0.0018745138610052514,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03679653679653674,0.014996110888042242,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.26190476190476186,0.003749027722010566,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,,,0.23809523809523805,0.008170816488388227,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.024891774891774868,0.00374902772201056,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,,,0.17965367965367962,0.15561852353262934,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.010822510822510801,0.018745138610052746,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0,0.0,,,3
+realAdExchange/exchange-3_cpm_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.020562770562770533,0.003749027722010559,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.182370820668693,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,,,0.0911854103343465,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.09827760891590677,0.001754864040090016,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.11144883485309014,0.001754864040090016,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.14184397163120566,0.009285867669616699,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.049645390070921926,0.01857173533923339,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.3404255319148936,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,,,0.1884498480243161,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0547112462006079,0.012158054711246199,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.23606889564336372,0.004642933834808337,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.23404255319148934,0.0030395136778115506,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.032421479229989836,0.0017548640400900212,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.729483282674772,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,,,0.4924012158054711,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0364741641337386,0.0,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.037487335359675765,0.0017548640400900201,,,3
+realAdExchange/exchange-4_cpc_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0,0.0,,,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.4158415841584158,0.0,0.1354166666666666,0.0,-86.22700421042431,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,fixed_percentile,Fixed percentile,0.5915492957746479,0.0,0.03125,0.0,78.77299578957566,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.273972602739726,0.0,0.0763888888888889,0.0,-20.96728400195065,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.39205344585091423,0.021315674495397587,0.07175925925925923,0.014032819042803435,-20.234115879000857,22.214696642634987,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.3726053639846743,0.01209690358491141,0.10532407407407403,0.0020046884346862437,-66.79772136930437,3.1742863248072153,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.11250873515024457,0.0012103779228293933,0.032407407407407406,0.0020046884346861904,42.09608244255504,3.1730132547622727,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.4615384615384615,0.0,0.1006944444444444,0.0,-9.987107314603438,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,fixed_percentile,Fixed percentile,0.4077669902912621,0.0,0.1423611111111111,0.0,-75.98710731460348,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.3880597014925373,0.0,0.045138888888888805,0.0,21.911839378082917,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.6896551724137931,0.0,0.12152777777777772,0.0,-73.89362985957023,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.6896551724137931,0.0,0.12152777777777772,0.0,-73.89362985957023,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.196078431372549,0.0,0.0173611111111111,0.0,65.91183937808293,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.2957746478873239,0.0,0.2777777777777778,0.0,-288.31680915826075,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,fixed_percentile,Fixed percentile,0.2068965517241379,0.0,0.4895833333333333,0.0,-623.8168091582609,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0,0.0,0.0,0.0,0.0,0.0,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.543123543123543,0.004037414469857554,0.0532407407407407,0.0020046884346861856,24.916244613992916,0.7777212061758962,3
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0,0.0,0.0,0.0,0.0,0.0,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.3902870443501676,0.01733225917220815,0.26397800183318054,0.01041046442859809,-1325.6318848174885,51.69195016686279,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.3939404091162885,0.01265316672801371,0.2673388328750381,0.007686981744826813,-1344.4191792205538,38.09478691378682,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.05246643624765177,0.01019320743989148,0.0516345860067216,0.01160612277007185,-176.90578697153842,58.91960046957182,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.06977093209446743,0.014772058164285798,0.07271616254201034,0.010544108723945901,-300.8933733977963,44.05830811931172,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0748509510015786,0.020185458905179778,0.0754659333944393,0.011606122770071845,-313.9064699339926,49.090158192595226,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0590469231773579,0.0230978868154156,0.044912923923006366,0.01032944790979343,-130.81764981930516,55.207197099549276,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.39406146526810276,0.013851877674955815,0.2749770852428964,0.007990648842421056,-1368.136114601922,49.13956130494378,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,fixed_percentile,Fixed percentile,0.38491068758716906,0.027851044606560082,0.2719217842957531,0.00280022957223087,-1349.8771656327813,19.12581727095659,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.011862211862211834,0.010551582819259315,0.025053467766574966,0.002645968236432727,-45.200611854152385,64.78522751107886,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.03319879336984747,0.00739885217528207,0.029025358997861267,0.005600459144461742,-45.21333013730484,28.7130718486482,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.04546964874499263,0.009293416462263044,0.03391384051329053,0.006350323767438618,-62.461039113479266,23.999535460988096,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.03783593977298574,0.006610426977237536,0.0305530094714329,0.008516565759099511,-46.68136103737319,44.0218342576398,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.2857289769109076,0.02786400169207624,0.32050106935533146,0.026316412199998546,-1525.3795844617487,151.68140823238863,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,fixed_percentile,Fixed percentile,0.2878437673036633,0.02528044456366342,0.33150015276504735,0.028537230501278595,-1576.7723823283657,182.90793221719017,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.10106517954619217,0.01575793833758289,0.0253589978612893,0.029860780257551164,-31.21843966727811,132.46895925391158,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.10356064599607029,0.06815034147548889,0.04552398411243503,0.06380899292027109,-147.72365117334687,326.76835261467863,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0720355341694482,0.09709835660792178,0.043690803544149066,0.07488230353457606,-134.59827654363323,387.7629143010521,3
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.1024226318343965,0.02596337641821619,0.0256645279560036,0.01746339036045619,-52.692518896006284,93.84150761082743,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.8060283101254432,0.06272056149664851,0.0170535291331122,0.009148843162400755,-98.54348568368846,105.80387946498007,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.8063247721877654,0.06295431315127527,0.015948207800410466,0.006431521191983671,-85.71015235035507,74.26670902893885,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.016261649496312133,0.006407556968040855,0.037580925311858464,0.011421532493304945,-336.8686486171496,132.60970301351736,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0038266267157246667,0.0033028820966017032,0.024159166271908967,0.014453951968159521,-181.5288803977226,167.44164185473625,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.020221469433894634,0.01427895234815921,0.057792515395547105,0.03766211124642529,-571.4162389186894,437.06779988201396,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.04374691307664227,0.0017585924737338532,0.04594978683088577,0.019282929831404658,-433.78127037431926,223.6651978689005,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.7232011410446448,0.07400596173796561,0.0,0.0,98.339948343701,0.0,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,fixed_percentile,Fixed percentile,0.6973730695642008,0.1228231211195387,0.0,0.0,98.339948343701,0.0,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.01874374380906847,0.0066093751026076245,0.0066319279962103,0.0034159652065030546,22.199697708895936,39.661064030103894,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.013528534237726333,0.010419159703668322,0.004421285330806833,0.004502314046860293,47.29319813209931,51.83743546004297,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.019521588649659166,0.014729189805902196,0.0056845097110374,0.005013266340245532,32.91311458716428,57.71917299783598,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.06901963388108077,0.0011715049274008636,0.027633033317543004,0.0024308865179757818,-221.09472004409224,28.623022220183813,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.7793679063239471,0.03318674294741907,0.0,0.0,98.15660863939,0.31755368291130603,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,fixed_percentile,Fixed percentile,0.767900483170528,0.026411854243698227,0.0,0.0,98.15660863939,0.31755368291130603,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.07957487622548287,0.008098303241201773,0.021159008368861434,0.0028944106710600483,-146.46696895777077,33.60555509634296,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0234426220677293,0.029119221357199448,0.0,0.0,97.7391448026026,0.06375304936103274,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0166247839228957,0.019765180034195088,0.0001579030475288,0.0002734961009898449,95.8629333660062,3.112602824684275,3
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.08633235240791563,0.015231845028601308,0.024159166271909,0.001253316585061422,-180.80015538885664,14.836119486613683,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.3253968253968254,0.0,0.0,0.0,78.9775803141028,0.0,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.3253968253968254,0.0,0.0,0.0,78.9775803141028,0.0,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.19292074553398594,0.00894715698395738,0.0179573512906846,0.0009719701501508935,69.82574439515906,1.7649860834501236,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.2868114704290368,0.007793934899283168,0.0134680134680134,0.0016835016835017001,75.67412484894282,1.8881935570181514,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.2864294034466622,0.007139506993948662,0.014029180695847299,0.0019439403003017894,74.76692243059551,2.7406677153077523,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.2148905881514264,0.007618208738173879,0.04096520763187427,0.0009719701501508371,36.19582663623234,1.587713240271479,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.44172309854966674,0.0018729176243935863,0.0011223344556677668,0.0019439403003017315,77.14424698076947,3.1754264805429377,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,fixed_percentile,Fixed percentile,0.4428044280442804,0.0,0.0,0.0,78.9775803141028,0.0,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.28300100081746155,0.004638184741649603,0.043209876543209826,0.007591329550206919,25.46683156518975,12.146909614765898,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.4333536412006011,0.001955688739304414,0.024130190796857433,0.004859850750754416,56.36553644675092,7.9385498933086645,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.42398905064078635,0.009611729005545838,0.0202020202020202,0.0,62.542828278982576,0.20730015446681385,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.2109375,0.0,0.0303030303030303,0.0,46.28222562733925,0.0,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.5103343813021232,0.010097642815342618,0.0656565656565656,0.0029159104504526802,37.463582152134855,4.76313972081442,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,fixed_percentile,Fixed percentile,0.5176763697042737,0.004156096937364571,0.06734006734006727,0.005831820900905308,34.713582152134855,9.526279441628832,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.2837848216538846,0.0006651281860911997,0.0011223344556677334,0.0009719701501508368,77.14424698076947,1.587713240271472,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.43702274362685795,0.005788844357135866,0.0,0.0,78.9350785092298,0.07361528545341847,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.43703703703703695,0.0,0.0,0.0,78.9775803141028,0.0,3
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.16439699276689868,0.008870212432503985,0.007856341189674466,0.0077757612012070996,70.71441001333083,4.785951350902447,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.8133485938521909,0.014720735933668912,0.023173803526448333,0.0028609110054409487,-377.6917061008976,58.948367076613536,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.8105496045029789,0.011618761743665005,0.025188916876574267,0.0015730473547603365,-419.85565756975916,37.48125181414115,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.041264098648101134,0.01946154036773335,0.04450041981528124,0.0023940516254212416,-871.83695802571,62.854467291063315,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.04830217727266326,0.012965861881831372,0.0371956339210747,0.002340446660749994,-731.4825504600791,79.52274733181397,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.046512468081095465,0.009095199474359224,0.03400503778337526,0.005455014566173254,-664.6682715555044,140.7554176414068,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.029015968772501764,0.007823159396179806,0.0391267842149454,0.0025851896420387046,-754.7150010951891,33.15678188013663,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.7457819495470407,0.07789445087820504,0.0270361041141897,0.004950973295652632,-363.18774764071577,106.83658221701751,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,fixed_percentile,Fixed percentile,0.7453856766695921,0.07924657518036765,0.027875734676742203,0.003618213505695222,-378.2327434631559,80.3692132565259,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.032002898428898835,0.00998739471607508,0.035684298908480204,0.010207987910023485,-702.6025628505364,220.20817364482454,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0340740224760843,0.02951218040737023,0.0015952980688496666,0.0013872973670745535,1.9888163931815,52.214807812088864,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.05377844839730941,0.021840637138703052,0.033081444164567535,0.01176172281891179,-653.0827913971751,241.10198575184134,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.026179993948035437,0.004096180139721324,0.040722082283795064,0.0005243491182534406,-810.6452356722151,23.153031432450955,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.6777671955453249,0.06602168809712398,0.044080604534004995,0.00419227127886478,-525.4865731525116,91.53689081186303,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,fixed_percentile,Fixed percentile,0.6750690319018476,0.06840482208302634,0.043240973971452525,0.005380846337535542,-505.8988223908834,115.3460738633402,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.022008253094910567,0.03811941254622009,0.022250209907640567,0.010459721112208881,-454.00418558060755,189.57837967194783,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.0,0.0,0.003778337531486133,0.0065442725726783555,-78.63311248480146,136.19654598095474,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0235020318585778,0.035990016227250746,0.04223341729638954,0.0040797751849727115,-840.3545060916498,101.78165585206727,3
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.054527873521081405,0.03975198980353537,0.03627204030226697,0.0024808206049864176,-717.0641688857194,77.46658691977265,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.13152942413142457,0.02993174411053483,0.0115500115500115,0.003940568747801333,73.36332608433388,7.291713958071358,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.13995110161211344,0.030709438260360395,0.014091014091014034,0.0028007289565678607,57.49311290877529,18.3113738426307,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.12178833421123736,0.04716153666761354,0.03857703857703853,0.019469907605179512,10.276860599944245,45.36442151329095,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.11064280671634204,0.04938052190674283,0.023100023100023067,0.0038167502060194544,31.89318615266272,26.39234678221581,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.11926792085337146,0.04432019697826168,0.025641025641025595,0.003600937229872962,37.11215173412079,7.728569196223478,3
+realKnownCause/nyc_taxi.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.10079074861270067,0.019084724320223026,0.03557403557403554,0.008121226995263072,19.541071875491788,20.28971002398674,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.40449691462979215,0.04687207304607049,0.04989604989604987,0.014320151295753166,-18.747541983907578,22.410919414413158,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,fixed_percentile,Fixed percentile,0.37694441772264703,0.05718000640352337,0.03880803880803877,0.017311151762712144,3.7139431557828204,28.989938948976377,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.13072716250812116,0.034013208044945405,0.03927003927003927,0.017218429340341165,-2.9378385309836688,42.39443498600758,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.17221515443725033,0.013027019685629266,0.05243705243705236,0.012129162016932413,-35.079754851522516,29.621755480779466,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.17570848931468397,0.029155496175196978,0.056826056826056764,0.030656959612743822,-46.16798039602031,77.0575866226857,3
+realKnownCause/nyc_taxi.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.11478079950628717,0.03126598327195806,0.041580041580041534,0.007201874459745864,-6.720003961532925,16.672751043622814,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.5573063985627652,0.016245365751604193,0.08408408408408403,0.010145618505889471,-33.53522944672718,5.823164349737535,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,fixed_percentile,Fixed percentile,0.5474558268675915,0.025852847024685027,0.04781704781704773,0.012608042549314117,34.58238086884851,28.416143045634016,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.12542031515266883,0.06034317644002386,0.019404019404019333,0.02280593578919522,23.468714479501443,43.36028426378683,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.19272148974149073,0.019977523816425192,0.024717024717024666,0.0074100323087758786,29.729426826326318,19.983271930726602,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.21451110269010906,0.022972770999950647,0.031416031416031366,0.0112670347870244,12.423914659778426,29.869135249136743,3
+realKnownCause/nyc_taxi.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.08521049618936095,0.0686976424336702,0.021252021252021202,0.02185242650271611,18.644253484824578,32.3782846812366,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.18567639257294422,0.045942992243206277,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,fixed_percentile,Fixed percentile,,,0.1282051282051282,0.0015314330747735368,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0990274093722369,0.009315343724891888,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1352785145888594,0.007017907986908729,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1317418213969938,0.010720031523414796,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0610079575596817,0.0,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.2254641909814323,0.0,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,fixed_percentile,Fixed percentile,,,0.1326259946949602,0.0,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.24668435013262593,0.09188598448641258,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.14588859416445618,0.08967714325929428,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1892130857648099,0.008526658497783338,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.18125552608311224,0.0015314330747736049,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.3165340406719717,0.0015314330747735589,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,fixed_percentile,Fixed percentile,,,0.2581786030061892,0.0030628661495470857,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.1326259946949602,0.0,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0,0.0,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.2015915119363395,0.009188598448641233,,,3
+realKnownCause/rogue_agent_key_hold.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0424403183023872,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.046723110693007164,0.0033037484330049422,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,fixed_percentile,Fixed percentile,,,0.10253998118532454,0.039105568562232386,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.23549702100972084,0.001436994573520182,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.19724051426779554,0.005747978294080691,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.19661335841956726,0.005644402634054552,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.18877391031671367,0.001436994573520144,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.070555032925682,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,fixed_percentile,Fixed percentile,,,0.1175917215428033,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.17434932580746312,0.0055121968740191145,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.13295703982439633,0.0005431328966976653,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.2097836312323612,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.16494198808403882,0.00706072765706972,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0940733772342427,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,fixed_percentile,Fixed percentile,,,0.1646284101599247,0.0,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.10818438381937907,0.008037632874240409,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.14706804640953272,0.022446572804231114,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.23957353402320472,0.02258414246476117,,,3
+realKnownCause/rogue_agent_key_updown.csv,Known Cause,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.09093759799310124,0.004445734361479391,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.128,0.0,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,fixed_percentile,Fixed percentile,,,0.11533333333333333,0.0030550504633038915,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.09733333333333333,0.007571877794400369,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.14266666666666666,0.002309401076758493,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.144,0.013999999999999992,,,3
+realTraffic/TravelTime_387.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.07266666666666667,0.014047538337136978,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.17,0.062385895841928884,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,fixed_percentile,Fixed percentile,,,0.20533333333333334,0.0011547005383792486,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.104,0.012165525060596436,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.17600000000000002,0.01969771560359221,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.17333333333333334,0.02318045153428495,,,3
+realTraffic/TravelTime_387.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.04666666666666667,0.0023094010767585045,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.20000000000000004,0.0,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,fixed_percentile,Fixed percentile,,,0.37799999999999995,0.0,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.07933333333333333,0.002309401076758503,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.12533333333333332,0.0011547005383792486,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.12533333333333332,0.0011547005383792486,,,3
+realTraffic/TravelTime_387.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.021333333333333333,0.0023094010767585036,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.07698229407236333,0.015377201197411991,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0577367205542725,0.002309468822170903,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0623556581986143,0.0023094688221708985,,,3
+realTraffic/TravelTime_451.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.09083910700538873,0.029243140743991643,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.13548883756735947,0.03466768360030084,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.05388760585065433,0.009333607123157919,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.06620477290223246,0.030667566261804592,,,3
+realTraffic/TravelTime_451.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.15781370284834484,0.04620861800911136,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.08929946112394145,0.047348804664147114,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.05234795996920707,0.023248142987746717,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.05234795996920707,0.024694403283056866,,,3
+realTraffic/TravelTime_451.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.05388760585065433,0.0070555437951591035,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0714285714285714,0.0,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,fixed_percentile,Fixed percentile,,,0.07002801120448172,0.0012129207335916773,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0168067226890756,0.009157350721724132,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0252100840336134,0.014705882352941199,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.019607843137254832,0.005286998904251243,,,3
+realTraffic/occupancy_6005.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03991596638655456,0.00915735072172408,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.07773109243697474,0.031089597871741072,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,fixed_percentile,Fixed percentile,,,0.09453781512605036,0.005558301073665082,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.07843137254901957,0.00641817324223506,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.1022408963585434,0.00737790879051313,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.09943977591036413,0.008490445135141569,,,3
+realTraffic/occupancy_6005.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.07843137254901957,0.006753256835429281,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.41036414565826324,0.015197853231240009,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,fixed_percentile,Fixed percentile,,,0.3004201680672269,0.03644821759012073,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.14775910364145653,0.004373247898038101,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.2149859943977591,0.00320908662111756,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.21568627450980385,0.0024258414671833547,,,3
+realTraffic/occupancy_6005.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.119047619047619,0.007953653145378499,,,3
+realTraffic/occupancy_t4013.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.42329988473794833,0.003072215883605941,0.08266666666666667,0.0023094010767585062,62.37443308236865,1.1137151775366636,3
+realTraffic/occupancy_t4013.csv,Traffic,30,fixed_percentile,Fixed percentile,0.4472049689440994,0.0,0.0,0.0,93.40062961256524,0.0,3
+realTraffic/occupancy_t4013.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.17109504903457864,0.013432364547334244,0.04,0.0,76.23869430341279,0.03457861214673586,3
+realTraffic/occupancy_t4013.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.226950354609929,0.0,0.0,0.0,94.59092503008095,0.0,3
+realTraffic/occupancy_t4013.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.2455996355180936,0.006155828646159451,0.0,0.0,95.70695516085387,0.9444684153900458,3
+realTraffic/occupancy_t4013.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.17945183737229445,0.0037184928246430664,0.028,0.0,84.6992494384709,0.0,3
+realTraffic/occupancy_t4013.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.6238162807314153,0.00871524724797918,0.0,0.0,93.65306833520025,0.4372366934016135,3
+realTraffic/occupancy_t4013.csv,Traffic,50,fixed_percentile,Fixed percentile,0.6072207864559959,0.006701012115511159,0.0,0.0,93.3121410672674,0.07663332817186047,3
+realTraffic/occupancy_t4013.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.2667958895596956,0.018407283208001834,0.004,0.0069282032302755096,93.27908227707773,2.7399906855138023,3
+realTraffic/occupancy_t4013.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.39384490917701176,0.01965897695220819,0.0,0.0,96.01275788921497,2.0732515982932513,3
+realTraffic/occupancy_t4013.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.36426101798765814,0.06632869957647024,0.0,0.0,95.9691229327339,2.0750753506966326,3
+realTraffic/occupancy_t4013.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.20042053184910325,0.03868984746961849,0.012000000000000002,0.017435595774162694,88.38306610806463,9.45546220490775,3
+realTraffic/occupancy_t4013.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.5812213066836626,0.006413493302520833,0.3213333333333333,0.0046188021535170185,11.280340738413372,2.0443945154509278,3
+realTraffic/occupancy_t4013.csv,Traffic,100,fixed_percentile,Fixed percentile,0.5641025641025641,0.002537803381053291,0.30666666666666664,0.002309401076758497,17.150768409773182,1.13930617461772,3
+realTraffic/occupancy_t4013.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.37640490529708504,0.023155877967131932,0.0,0.0,95.36693144005734,0.12193177212243807,3
+realTraffic/occupancy_t4013.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.3586007298618619,0.02527990812657164,0.0,0.0,95.2677703844924,0.0,3
+realTraffic/occupancy_t4013.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.35503592470194434,0.023771768246300656,0.0,0.0,95.22146267095546,0.13761601108377916,3
+realTraffic/occupancy_t4013.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.25971640947224234,0.019358162210661656,0.0,0.0,96.84700850801612,0.07426382685080118,3
+realTraffic/speed_6005.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.2924934907887294,0.027707655012415202,0.1634738186462324,0.007975731798720867,-136.88637669612203,10.981323236470647,3
+realTraffic/speed_6005.csv,Traffic,30,fixed_percentile,Fixed percentile,0.2456356279885691,0.006591427824972809,0.1149425287356321,0.0,-71.14501252797078,2.985860536017325,3
+realTraffic/speed_6005.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0915337103843316,0.02375109087664785,0.03831417624521067,0.013272419981370742,39.246343531172755,15.388849768953744,3
+realTraffic/speed_6005.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.1209894476011449,0.011987534960745042,0.035759897828863296,0.0022120699968951334,42.913010197839434,0.48828263376097814,3
+realTraffic/speed_6005.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.1209894476011449,0.011987534960745042,0.035759897828863296,0.0022120699968951334,42.913010197839434,0.48828263376097814,3
+realTraffic/speed_6005.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.11076968100673103,0.011911967801541887,0.06385696040868451,0.0022120699968951386,6.810163751257768,3.175426480542945,3
+realTraffic/speed_6005.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.33670645217090467,0.006441635073989097,0.13154533844189012,0.0022120699968951325,-97.20642325992793,3.175426480542944,3
+realTraffic/speed_6005.csv,Traffic,50,fixed_percentile,Fixed percentile,0.33163230208313793,0.0015577967073439705,0.12515964240102165,0.005852587094451898,-88.03975659326126,8.401388774085705,3
+realTraffic/speed_6005.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.18410316190540033,0.005923299844387673,0.0791826309067688,0.009642189572504123,-15.189836248742216,13.841363131329691,3
+realTraffic/speed_6005.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.2058165548098434,0.003874834021406909,0.1085568326947637,0.0022120699968951356,-57.35650291540884,3.175426480542938,3
+realTraffic/speed_6005.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.2236842105263158,0.0,0.1187739463601532,0.0,-72.02316958207548,0.0,3
+realTraffic/speed_6005.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.13674688057040993,0.003880814405203399,0.05874840357598973,0.005852587094451904,15.101696019665669,8.096807666650896,3
+realTraffic/speed_6005.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.6064139941690962,0.0,0.0,0.0,91.62691007340534,0.0,3
+realTraffic/speed_6005.csv,Traffic,100,fixed_percentile,Fixed percentile,0.6064139941690962,0.0,0.0,0.0,91.62691007340534,0.0,3
+realTraffic/speed_6005.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.19987970016907594,0.028895812640484266,0.0945083014048531,0.0022120699968951325,-39.53112257390567,0.8798003897064314,3
+realTraffic/speed_6005.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.24805477746654211,0.0172504282110813,0.08429118773946354,0.01327241998137069,-29.784976597816637,18.846489835619828,3
+realTraffic/speed_6005.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.24993537045654302,0.02050771081812078,0.08429118773946354,0.01327241998137069,-29.72699705415954,18.746066320206065,3
+realTraffic/speed_6005.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.21703405889900373,0.013032064832966012,0.07024265644955296,0.005852587094451885,-2.2113118186360246,8.378476935634922,3
+realTraffic/speed_7578.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.7419354838709676,0.0,0.119047619047619,0.0,72.95629325638711,0.0,3
+realTraffic/speed_7578.csv,Traffic,30,fixed_percentile,Fixed percentile,0.7185767448925343,0.005590655374927989,0.1607142857142857,0.0,55.386102230020384,0.1918415817011134,3
+realTraffic/speed_7578.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.2858997316828642,0.003168244952864043,0.1071428571428571,0.046489581404206295,-0.41289303674883254,21.359222322365557,3
+realTraffic/speed_7578.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.3884825264135609,0.00402194544890021,0.09126984126984124,0.03436608745176343,6.920362950319961,15.75786757356841,3
+realTraffic/speed_7578.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.37676362339283687,0.013049932978543698,0.10912698412698407,0.04991962549765525,-1.329517370330726,22.943797033569865,3
+realTraffic/speed_7578.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.21843971631205675,0.031938525529638856,0.10317460317460314,0.03436608745176342,1.4203521695207446,15.758136121101572,3
+realTraffic/speed_7578.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.6421867072552004,0.0028559944822927094,0.242063492063492,0.0034366087451763758,18.933771198889104,1.3631395560189958,3
+realTraffic/speed_7578.csv,Traffic,50,fixed_percentile,Fixed percentile,0.6260928613869791,0.0023523311196928937,0.2817460317460317,0.003436608745176388,1.1096360682797957,1.587713240271469,3
+realTraffic/speed_7578.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.4313916814508181,0.03174526484005285,0.035714285714285664,0.025945827044884934,34.85399808527038,7.914951030289391,3
+realTraffic/speed_7578.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.46998442170855964,0.012215896569676393,0.06150793650793643,0.006873217490352682,33.01435861665512,2.272408857689071,3
+realTraffic/speed_7578.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.46649099692577956,0.011858683412727429,0.06547619047619042,0.005952380952380955,31.181025283321787,1.9491219522459684,3
+realTraffic/speed_7578.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.3421052631578947,0.0,0.0297619047619047,0.0,35.26817203577417,0.0,3
+realTraffic/speed_7578.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.4798571984501632,0.00442515053284777,0.5535714285714286,0.0,-124.5390767354828,0.1918415817011134,3
+realTraffic/speed_7578.csv,Traffic,100,fixed_percentile,Fixed percentile,0.481608040201005,0.0013926036643769851,0.5555555555555556,0.0034366087451763315,-125.34498294284676,1.587712078990633,3
+realTraffic/speed_7578.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.4547685866977873,0.0384251972867803,0.029761904761904736,0.02594582704488494,76.17094455874478,24.631920760407027,3
+realTraffic/speed_7578.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.7767281451491977,0.008310935049063438,0.07341269841269836,0.0034366087451763146,77.77413843606888,1.4486222548951186,3
+realTraffic/speed_7578.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.7767281451491977,0.008310935049063438,0.07341269841269836,0.0034366087451763146,77.77413843606888,1.4486222548951186,3
+realTraffic/speed_7578.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.7080398919814979,0.019718878358037418,0.17658730158730154,0.02684077233823148,48.72123649583949,11.6425378182357,3
+realTraffic/speed_t4013.csv,Traffic,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.6022941349837901,0.004296180252431324,0.05220883534136541,0.0,92.90870947560346,0.0,3
+realTraffic/speed_t4013.csv,Traffic,30,fixed_percentile,Fixed percentile,0.48923375299522087,0.020827548306747143,0.0,0.0,96.08855843532633,0.36443668799288353,3
+realTraffic/speed_t4013.csv,Traffic,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.22116951967398854,0.005005797293285111,0.029451137884872764,0.006134639484546004,79.59402137122284,4.149171000336149,3
+realTraffic/speed_t4013.csv,Traffic,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.2749084079623794,0.006443489096553004,0.0040160642570281,0.0040160642570281,96.9707394477831,2.7022222859410303,3
+realTraffic/speed_t4013.csv,Traffic,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.29151997033352967,0.006352284400300975,0.0080321285140562,0.0040160642570281,94.2207394477831,2.7022222859410285,3
+realTraffic/speed_t4013.csv,Traffic,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.1444043321299639,0.0,0.028112449799196703,0.0,81.85738646111776,0.752485957305458,3
+realTraffic/speed_t4013.csv,Traffic,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.7327835375484867,0.009974752950279381,0.1325301204819277,0.0,66.59735999757235,0.013752348170432005,3
+realTraffic/speed_t4013.csv,Traffic,50,fixed_percentile,Fixed percentile,0.628882532992122,0.0021727768673401367,0.0,0.0,96.37664085721008,0.0,3
+realTraffic/speed_t4013.csv,Traffic,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.36695363551498805,0.000682687798855035,0.014725568942436366,0.0023186757798780077,89.80088567785505,1.4328813739346344,3
+realTraffic/speed_t4013.csv,Traffic,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.5283034577886454,0.014265401857387028,0.038821954484605035,0.046373515597560276,74.20671956213488,30.360608303936516,3
+realTraffic/speed_t4013.csv,Traffic,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.5303491235694625,0.014337037468638732,0.0348058902275769,0.015204573884338093,76.708326579429,10.139867517075414,3
+realTraffic/speed_t4013.csv,Traffic,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.22863984674329496,0.0009124788737192106,0.02275769745649257,0.0046373515597560155,84.7815327222661,3.1754264805429315,3
+realTraffic/speed_t4013.csv,Traffic,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.6944444444444443,0.0,0.3172690763052209,0.0,15.459675963099512,0.0,3
+realTraffic/speed_t4013.csv,Traffic,100,fixed_percentile,Fixed percentile,0.5760006088801363,0.0007250452905313024,0.30655957161981257,0.002318675779878044,17.95022708079306,1.0945385078124779,3
+realTraffic/speed_t4013.csv,Traffic,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.5832639039871117,0.004467309411441788,0.0040160642570281,0.006956027339634023,96.94648865099778,4.763139720814412,3
+realTraffic/speed_t4013.csv,Traffic,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.6419691369195509,0.06119006538274045,0.0,0.0,99.65684698661728,0.0,3
+realTraffic/speed_t4013.csv,Traffic,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.6787731546820409,0.04017440736641387,0.0,0.0,99.65684698661728,0.0,3
+realTraffic/speed_t4013.csv,Traffic,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.31815579892306234,0.014854605073375143,0.014725568942436366,0.010106873407323596,89.5883874982653,6.920681565664853,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.07953473750392953,0.012715340091893568,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.07261867337315303,0.0017503188817447183,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0410772293827936,0.0036706025124461843,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.031855810541758296,0.0015822769433660193,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.069894163261029,0.006781385177559879,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0419155401865241,0.005537969301780885,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.1026930734569841,0.0020453967615994017,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.09001362255056056,0.0014856383609722211,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.06004401131719583,0.002881217035495676,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.057214712354605436,0.004652200121643773,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.09933983024206224,0.005508146956282695,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.046945405008907,0.006368024564283133,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.09682489783087077,0.00031436655139895076,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.09368123231688143,0.004355990713785316,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0761814942890076,0.0006544061614166116,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0772293827936707,0.003272030807082917,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.1395787488211254,0.001440608517747782,,,3
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.06350204338258404,0.0014406085177478334,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.009577939164298466,0.0003646038959202336,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.0090516787706557,0.0010150142891267192,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.027891800863067,0.00101501428912672,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0313651194611093,0.0056601745752020835,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.029891590358909533,0.0010150142891267393,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.035575202610251495,0.0003646038959201771,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0119987369750552,0.0030121225178937256,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.014419534785812002,0.002005321427561056,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.015787811809283167,0.00031575623618564975,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.025892011367224466,0.0008354124758650205,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.016629828439111632,0.006388376341645541,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0019997894958425,0.002054438616560673,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.015893063888011733,0.0011954338166088557,,,3
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.049994737396063534,0.0017390497465380715,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.029340878130566902,0.0011040190456724978,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.028292989625903764,0.002495207146555706,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.029236089280100533,0.0027224941961158274,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03290369904642143,0.0006544061614165698,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.035523420308079166,0.0006287331027978495,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.020957770093262034,0.009096734533882747,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.015508749869013865,0.0013088123228331364,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.027454678822173298,0.00018149961307437025,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.0,0.0,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.03321806559782037,0.0020210941550860297,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.02871214502776903,0.0030207555916168063,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.027769045373572204,0.010634390535989397,,,3
+realTweets/Twitter_volume_CRM.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.02546369066331337,0.0017503188817447205,,,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.20160058164790615,0.0024399262259292365,0.020908435472242203,0.0021927766872019685,-224.29394799050382,33.455193916640326,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,fixed_percentile,Fixed percentile,0.20278490637772065,0.000699668846323319,0.0198269646719538,0.0006243874576672292,-207.79394799050382,9.526279441628825,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0624417068717091,0.012538340066493273,0.031242489786109065,0.005948999660892365,-375.68487722367325,86.05829720838835,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.09116337674268284,0.009862379736562508,0.030401345830329166,0.002400262479624886,-365.1465661173068,36.751809447035384,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0914210165016799,0.008063024348955165,0.03016101898582067,0.005588568110662559,-361.3301238879366,84.99443629384079,3
+realTweets/Twitter_volume_CVS.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0976952560680498,0.00474618319910878,0.030040855563566365,0.0007504203314585964,-337.2585125236404,12.846007771377655,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.26288393428196327,0.005692003577776268,0.026075462629175632,0.0042704531708523796,-303.1272813238372,65.15430402769496,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,fixed_percentile,Fixed percentile,0.2593033942824263,0.0029031700326368035,0.02871905791876947,0.00220263191298042,-343.46061465717054,33.60555509634263,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.1148734926166029,0.020032071736992365,0.020307618360970867,0.0005506579782451182,-206.01449383540003,8.401388774085722,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.1937228254880177,0.022983949225314118,0.029319875030040767,0.0011013159564902365,-339.9505763372231,16.78985046733723,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.1989221143563352,0.02611974199374778,0.030881999519346236,0.0017036105357796105,-363.77601072878116,25.99198594438928,3
+realTweets/Twitter_volume_CVS.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.13393546461307557,0.008819790993098554,0.0259552992069214,0.00036049026676279955,-286.0215474913129,5.499351869608678,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.4671814671814672,0.0,0.0,0.0,94.70605200949642,0.0,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,fixed_percentile,Fixed percentile,0.4671814671814672,0.0,0.0,0.0,94.70605200949642,0.0,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.18695581199719283,0.012107994845063448,0.04446046623407827,0.0021729321461217564,-547.3043012529532,33.25944019474958,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.18948831483078052,0.008294362518393888,0.04626291756789227,0.0017036105357796088,-524.9562255167754,23.3836343206176,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.2147211223741038,0.026238903837210777,0.0459024273011295,0.006974656025441691,-523.7994545781213,68.01372603462248,3
+realTweets/Twitter_volume_CVS.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0870040872721408,0.010693593929006415,0.05347272290314823,0.017274719662126518,-643.4441793159491,229.64853760666037,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.052099778970634635,0.020683841155872854,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.049784233238606396,0.018145226377178723,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.038838017050836705,0.0016708249517301003,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0565203662772339,0.007262393432270299,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0558888538048626,0.0047678146102120055,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.03810125249973683,0.0023908676332176737,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.040837806546679234,0.0030341091054414755,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.06683506999263233,0.00018230194796011885,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.03336490895695187,0.0004823256178250538,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.019155878328596932,0.0012761136357207188,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.06304599515840432,0.0028476474599450022,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0428375960425218,0.0025326196012032624,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.08146510893590146,0.0005469058438802985,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.0813598568571729,0.0003646038959201816,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.05252078728554884,0.0016203351561247161,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.044205873065992995,0.014535079616651578,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.09556888748552776,0.009218423866812982,,,3
+realTweets/Twitter_volume_FB.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.037574992106094066,0.0019206702021781403,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.08204480908804036,0.019403545774241967,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.010308193962343499,0.009824587717543366,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0177763753024087,0.004830530137038012,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.022299358367518632,0.005207486607546631,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.020721573577363966,0.0038947109669871948,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.026927527085305502,0.0004820212154155902,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.005890396549910533,0.0020287473989677113,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.0064163248132954,0.002410106077077878,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.014094877458714567,0.0020287473989676896,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0281897549174292,0.0019280848616622889,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0298727253602608,0.0009109344733191142,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.032607552329862136,0.0019020870221968212,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0006311139160618334,0.001093121367982855,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.0005259282633848667,0.0009109344733190555,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.056589881140212434,0.006666646419476497,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.061323235510676304,0.04686029680762034,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.06058693594193746,0.042803065182555375,,,3
+realTweets/Twitter_volume_GOOG.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.044493531082360295,0.005844196647981088,,,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.17895658868682196,0.0008937468291228526,0.07913870246085007,0.00048435425267589187,-826.7234412749607,5.568623197352867,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,fixed_percentile,Fixed percentile,0.19852811456813077,0.016995182457885318,0.0810961968680089,0.0016952398843654755,-852.3901079416272,21.170269076808236,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.0989816724026636,0.004246174797142671,0.05047539149888136,0.0031483026423931013,-495.5369054050246,36.76515339449132,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.13552164053594426,0.0016516109706650442,0.06277964205816554,0.0018914638224928303,-631.6917267982142,22.8635973954255,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.13409085640899743,0.0005428153250017295,0.05760626398210287,0.0016952398843655223,-566.4229978206067,23.887698751902487,3
+realTweets/Twitter_volume_IBM.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.08008053404571516,0.0030660075458317855,0.045302013422818734,0.00083892617449665,-451.141734438749,14.910155036034341,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.24787209262363621,0.0008069062900651905,0.1270973154362416,0.0,-1391.3140605509677,0.0,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,fixed_percentile,Fixed percentile,0.24914047388274188,0.0015913971860699243,0.12933445190156598,0.0004843542526758338,-1417.9870832276004,4.046956350425003,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.11526605621446584,0.0001812949855116455,0.050615212527964165,0.0006407404495184436,-476.9571217978935,8.401388774085646,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.1646669414476926,0.002152622074323149,0.0623601789709172,0.0002421771263379735,-592.3246848127357,0.8114605192783255,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.184090849416681,0.013913797187256502,0.06907158836689037,0.000873182046755938,-674.8491397857578,11.449162997063667,3
+realTweets/Twitter_volume_IBM.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0751737064998903,0.004334579356891783,0.0460011185682326,0.0006407404495184541,-447.32985201008904,8.401388774085605,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.38236824680661335,0.0005872569891538522,0.14625279642058162,0.0019374170107034554,-1500.5139957958752,25.385962974052045,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,fixed_percentile,Fixed percentile,0.37603993829106513,0.010467861629329953,0.22119686800894853,0.019428583548861022,-2482.229276667661,254.73382491937153,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.21917020136763374,0.011806773265287264,0.03341722595078297,0.004445781066997961,-240.18856921382562,58.29308135047724,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.365504607810833,0.0057067603118296385,0.024748322147650968,0.0032761114412359856,-46.49637272312244,44.26835452363215,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.3652113703444899,0.00582610260782985,0.030201342281879134,0.004359188274082746,-117.99490196502192,56.04791636237917,3
+realTweets/Twitter_volume_IBM.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.10332089355701461,0.006260573846208048,0.02838366890380307,0.00048435425267589187,-224.3900846011471,7.676807257020261,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.10306115848253124,0.0036378615034186428,0.008957860206913934,0.007851808166793664,-36.82928624903149,113.88060988381508,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,fixed_percentile,Fixed percentile,0.10048063708598964,0.0022701057308984972,0.0145092101942972,0.00511093340916708,-117.35311634713781,74.2233466288259,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.08957811046252244,0.03239221375046419,0.04138279081503907,0.008879327938386528,-496.6682809514601,124.8528884504236,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.08547701075254362,0.004498519317811339,0.0452939692152409,0.008959637031330321,-557.1470344576861,130.1693629936511,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.0858660415072503,0.005092458812335573,0.047186474892757964,0.005436906743985695,-584.4418753799793,79.06177872345668,3
+realTweets/Twitter_volume_KO.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.09648878426548413,0.003275983271911786,0.0387332828665152,0.0015296941273002702,-438.6162064314852,23.003946009021504,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,0.16256990204574204,0.005995637976040223,0.0138783749684582,0.008415445947843728,-108.04886777515556,121.95013122272763,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,fixed_percentile,Fixed percentile,0.15906689754572856,0.00014616018480188427,0.0187988897300025,0.00021852773247146701,-179.35357262765888,3.1682205376223602,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.08280494464308406,0.013289153264817392,0.044536966944234126,0.008765659193884267,-543.100272532383,120.34113897432184,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.08366122972082836,0.012757748202514152,0.045672470350744336,0.004762701511021135,-566.1020056032221,68.88300852307137,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.11204499161512747,0.010902580070147343,0.073933888468332,0.001156340069380717,-966.5785545672807,19.527600225055995,3
+realTweets/Twitter_volume_KO.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.09231894195189543,0.009478949941716568,0.036966944234166,0.0010926386623573375,-428.1606256629606,16.44308546345229,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,0.3179650238473768,0.0,0.0,0.0,93.02314089872762,0.0,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,fixed_percentile,Fixed percentile,0.3179650238473768,0.0,0.0,0.0,93.02314089872762,0.0,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.077727952167414,0.0,0.0431491294473883,0.0,-533.400398780822,0.0,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.1359485989396235,0.0013520797029840958,0.06447136008074683,0.00284086052212912,-842.8709165640288,41.280544247058366,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.12846388412426143,0.0002805876093831505,0.08099924299772897,0.0006555831974144531,-1080.487546706131,9.20994389366453,3
+realTweets/Twitter_volume_KO.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.06813428593041043,0.0018189211779243589,0.0322987635629573,0.000437055464942935,-372.21313355907773,6.350852961085888,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.0036780159730978664,0.00018201458675585835,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.008511979823455166,0.0027483599896221157,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04066834804539717,0.0031995244530555267,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.042770071458595994,0.001792635782811283,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.042980243799915906,0.0018472463042503943,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0346784363177805,0.0,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.02311895754518703,0.00018201458675585753,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.020176544766708635,0.0016381312808028418,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04602774274905417,0.00196878877629206,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.014501891551071832,0.024025925451775097,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.037410676754939004,0.0034582771483615596,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.037410676754939,0.0006562629254306887,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.04907524169819247,0.00018201458675586103,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.04928541403951234,0.00018201458675585653,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.0353089533417402,0.008476878726197176,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.06767549390500206,0.011935494631778617,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.07103825136612013,0.009548395705422895,,,3
+realTweets/Twitter_volume_PFE.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.046343001261034,0.0011366807299697434,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.03980256248687244,0.005854803555877492,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,fixed_percentile,Fixed percentile,,,0.03927746271791637,0.002097771933988463,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.040537702163410995,0.005275096977472973,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.0332913253518168,0.00018189989577489338,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.05461037597143453,0.0016167616381370215,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.0421130014702793,0.002679552787686016,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.05629069523209403,0.0007275995830996927,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,fixed_percentile,Fixed percentile,,,0.053140096618357426,0.008108329404309035,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.056815795001050134,0.002097771933988463,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.048414198697752535,0.0014889148160846623,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.0787649653434152,0.0034078934550699005,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,50,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.042848141146817835,0.0013733140968937424,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,fixed_mean_k_sigma,Fixed mean + k sigma,,,0.09798361688720851,0.0031029797737228155,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,fixed_percentile,Fixed percentile,,,0.03707204368830073,0.009432522532758603,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),,,0.04484352026885107,0.0007275995830996892,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,moving_median_lambda_mad,Moving median + lambda raw MAD (original),,,0.08244066372610791,0.006256404540477437,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),,,0.11625708884688087,0.0074490172763307366,,,3
+realTweets/Twitter_volume_UPS.csv,Twitter,100,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),,,0.030980886368409965,0.0047711895364841665,,,3

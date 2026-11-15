@@ -1,0 +1,22 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors / operating systems
+.vscode/
+.idea/
+.DS_Store
+
+# Downloaded NAB corpus and experiment artifacts
+# Data is downloaded automatically when run_experiment.py is executed.
+data/nab/
+outputs/**
+!outputs/.gitkeep
+
+# Optional trained weights
+*.pt
+
+# Optional trained model files
+*.weights.h5

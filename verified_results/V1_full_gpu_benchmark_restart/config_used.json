@@ -1,0 +1,76 @@
+{
+  "nab_repo_raw_base": "https://raw.githubusercontent.com/numenta/NAB/master",
+  "labels_file": "labels/combined_windows.json",
+  "selected_files": {
+    "realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv": "AWS CloudWatch",
+    "realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv": "AWS CloudWatch",
+    "realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv": "AWS CloudWatch",
+    "realTweets/Twitter_volume_AAPL.csv": "Twitter",
+    "realTweets/Twitter_volume_AMZN.csv": "Twitter",
+    "realTraffic/TravelTime_387.csv": "Traffic",
+    "realTraffic/TravelTime_451.csv": "Traffic",
+    "realKnownCause/ambient_temperature_system_failure.csv": "Known Cause",
+    "realKnownCause/machine_temperature_system_failure.csv": "Known Cause",
+    "realKnownCause/nyc_taxi.csv": "Known Cause"
+  },
+  "split": {
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "test_fraction": 0.2
+  },
+  "window_sizes": [
+    30,
+    50,
+    100
+  ],
+  "run_seeds": [
+    15,
+    42,
+    123
+  ],
+  "numpy_seed": 42,
+  "eda_rolling_window": 50,
+  "high_variance_percentile": 75.0,
+  "threshold_grids": {
+    "fixed_percentiles": [
+      95.0,
+      97.0,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      99.7,
+      99.9
+    ],
+    "fixed_k_values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0
+    ],
+    "mad_lambda_values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      6.0
+    ]
+  },
+  "model": {
+    "hidden_size": 64,
+    "latent_size": 32,
+    "epochs": 20,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "patience": 4
+  }
+}

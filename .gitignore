@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*~
+
+# Local backups - original source and benchmark evidence are retained elsewhere
+source_code/backups/
+
+# Optional model checkpoints and weights
+*.pt
+*.pth
+*.weights.h5

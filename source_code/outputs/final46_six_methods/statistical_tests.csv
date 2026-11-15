@@ -1,0 +1,9 @@
+hypothesis,metric,baseline,test,n_datasets_tested,datasets_improved_proposed,datasets_baseline_better,mean_difference_proposed_minus_baseline,statistic,p_value,alpha,p_value_holm_within_hypothesis,significant_holm_0_05
+H1: Proposed moving Median + MAD vs fixed-threshold F1,f1_score,fixed_percentile,Wilcoxon signed-rank (two-sided),18,1,17,-0.20238891260631617,9.0,0.00025177001953125,0.05,0.0003814697265625,True
+H1: Proposed moving Median + MAD vs fixed-threshold F1,f1_score,fixed_mean_k_sigma,Wilcoxon signed-rank (two-sided),18,1,17,-0.20900186888137862,8.0,0.00019073486328125,0.05,0.0003814697265625,True
+H2: High-variance false-positive rate,high_variance_fpr,fixed_percentile,Paired t-test (two-sided),42,22,20,-0.12848930782578633,-3.0303489589787356,0.004217865388417429,0.05,0.008435730776834858,True
+H2: High-variance false-positive rate,high_variance_fpr,fixed_mean_k_sigma,Paired t-test (two-sided),42,26,16,-0.13051206103389928,-3.0252680831111176,0.004276048942650121,0.05,0.008435730776834858,True
+H2: High-variance false-positive rate,high_variance_fpr,rolling_mean_3sigma,Paired t-test (two-sided),42,13,29,0.054894284095440365,4.268927603869347,0.00011332378924006791,0.05,0.00033997136772020373,True
+H3: NAB-style event score,nab_style_score,fixed_percentile,Wilcoxon signed-rank (two-sided),17,11,6,332.7401428082217,46.0,0.1593780517578125,0.05,0.318756103515625,False
+H3: NAB-style event score,nab_style_score,fixed_mean_k_sigma,Wilcoxon signed-rank (two-sided),17,14,3,324.6524266905599,32.0,0.0347900390625,0.05,0.1043701171875,False
+H3: NAB-style event score,nab_style_score,rolling_mean_3sigma,Wilcoxon signed-rank (two-sided),17,9,8,17.19537656038174,75.0,0.963226318359375,0.05,0.963226318359375,False

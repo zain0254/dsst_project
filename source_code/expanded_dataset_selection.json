@@ -1,0 +1,422 @@
+{
+  "requested_additional": 15,
+  "selected_additional": 13,
+  "total_selected": 23,
+  "selected_files": [
+    {
+      "dataset": "realAWSCloudwatch/elb_request_count_8c0756.csv",
+      "domain": "AWS CloudWatch"
+    },
+    {
+      "dataset": "realAdExchange/exchange-4_cpm_results.csv",
+      "domain": "Ad Exchange"
+    },
+    {
+      "dataset": "realKnownCause/cpu_utilization_asg_misconfiguration.csv",
+      "domain": "Known Cause"
+    },
+    {
+      "dataset": "realTraffic/speed_t4013.csv",
+      "domain": "Traffic"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_IBM.csv",
+      "domain": "Twitter"
+    },
+    {
+      "dataset": "realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+      "domain": "AWS CloudWatch"
+    },
+    {
+      "dataset": "realKnownCause/ec2_request_latency_system_failure.csv",
+      "domain": "Known Cause"
+    },
+    {
+      "dataset": "realTraffic/speed_7578.csv",
+      "domain": "Traffic"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_CVS.csv",
+      "domain": "Twitter"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv",
+      "domain": "AWS CloudWatch"
+    },
+    {
+      "dataset": "realTraffic/occupancy_t4013.csv",
+      "domain": "Traffic"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_KO.csv",
+      "domain": "Twitter"
+    },
+    {
+      "dataset": "realTraffic/speed_6005.csv",
+      "domain": "Traffic"
+    }
+  ],
+  "screening_audit": [
+    {
+      "dataset": "realAWSCloudwatch/iio_us-east-1_i-a2eb1cd9_NetworkIn.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 1243,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 394,
+      "normal_W100_validation_windows_for_early_stopping": 249,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1878,
+      "normal_W100_validation_windows_for_early_stopping": 806,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_cpu_utilization_77c1ca.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1818,
+      "normal_W100_validation_windows_for_early_stopping": 806,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_disk_write_bytes_1ef3de.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4719,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 2289,
+      "normal_W100_validation_windows_for_early_stopping": 815,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_cpu_utilization_fe7f93.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1852,
+      "normal_W100_validation_windows_for_early_stopping": 572,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/elb_request_count_8c0756.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 1,
+      "positive_test_points": 201,
+      "normal_W100_training_windows": 2020,
+      "normal_W100_validation_windows_for_early_stopping": 806,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realAdExchange/exchange-2_cpc_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1623,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 612,
+      "normal_W100_validation_windows_for_early_stopping": 325,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAdExchange/exchange-4_cpm_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1643,
+      "complete_test_events": 1,
+      "positive_test_points": 41,
+      "normal_W100_training_windows": 606,
+      "normal_W100_validation_windows_for_early_stopping": 271,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realKnownCause/cpu_utilization_asg_misconfiguration.csv",
+      "domain": "Known Cause",
+      "rows": 18050,
+      "complete_test_events": 1,
+      "positive_test_points": 1499,
+      "normal_W100_training_windows": 10731,
+      "normal_W100_validation_windows_for_early_stopping": 3610,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTraffic/speed_t4013.csv",
+      "domain": "Traffic",
+      "rows": 2494,
+      "complete_test_events": 2,
+      "positive_test_points": 250,
+      "normal_W100_training_windows": 1397,
+      "normal_W100_validation_windows_for_early_stopping": 499,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_IBM.csv",
+      "domain": "Twitter",
+      "rows": 15893,
+      "complete_test_events": 1,
+      "positive_test_points": 795,
+      "normal_W100_training_windows": 8542,
+      "normal_W100_validation_windows_for_early_stopping": 3179,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 1,
+      "positive_test_points": 201,
+      "normal_W100_training_windows": 2320,
+      "normal_W100_validation_windows_for_early_stopping": 561,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realAdExchange/exchange-4_cpc_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1643,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 578,
+      "normal_W100_validation_windows_for_early_stopping": 264,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAdExchange/exchange-3_cpm_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1538,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 823,
+      "normal_W100_validation_windows_for_early_stopping": 123,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAdExchange/exchange-3_cpc_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1538,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 531,
+      "normal_W100_validation_windows_for_early_stopping": 158,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAdExchange/exchange-2_cpm_results.csv",
+      "domain": "Ad Exchange",
+      "rows": 1623,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 655,
+      "normal_W100_validation_windows_for_early_stopping": 184,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realKnownCause/rogue_agent_key_hold.csv",
+      "domain": "Known Cause",
+      "rows": 1882,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 836,
+      "normal_W100_validation_windows_for_early_stopping": 182,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realKnownCause/rogue_agent_key_updown.csv",
+      "domain": "Known Cause",
+      "rows": 5315,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 2414,
+      "normal_W100_validation_windows_for_early_stopping": 1011,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realKnownCause/ec2_request_latency_system_failure.csv",
+      "domain": "Known Cause",
+      "rows": 4021,
+      "complete_test_events": 2,
+      "positive_test_points": 211,
+      "normal_W100_training_windows": 2079,
+      "normal_W100_validation_windows_for_early_stopping": 804,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTraffic/speed_7578.csv",
+      "domain": "Traffic",
+      "rows": 1127,
+      "complete_test_events": 2,
+      "positive_test_points": 58,
+      "normal_W100_training_windows": 449,
+      "normal_W100_validation_windows_for_early_stopping": 97,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_PFE.csv",
+      "domain": "Twitter",
+      "rows": 15858,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 7977,
+      "normal_W100_validation_windows_for_early_stopping": 2676,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_CRM.csv",
+      "domain": "Twitter",
+      "rows": 15902,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 7552,
+      "normal_W100_validation_windows_for_early_stopping": 3180,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_CVS.csv",
+      "domain": "Twitter",
+      "rows": 15853,
+      "complete_test_events": 1,
+      "positive_test_points": 397,
+      "normal_W100_training_windows": 8085,
+      "normal_W100_validation_windows_for_early_stopping": 3171,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_disk_write_bytes_c0d644.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1906,
+      "normal_W100_validation_windows_for_early_stopping": 518,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/rds_cpu_utilization_e47b3b.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 2020,
+      "normal_W100_validation_windows_for_early_stopping": 506,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/grok_asg_anomaly.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4621,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 2165,
+      "normal_W100_validation_windows_for_early_stopping": 904,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 1,
+      "positive_test_points": 403,
+      "normal_W100_training_windows": 2320,
+      "normal_W100_validation_windows_for_early_stopping": 806,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTraffic/occupancy_6005.csv",
+      "domain": "Traffic",
+      "rows": 2380,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1329,
+      "normal_W100_validation_windows_for_early_stopping": 217,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTraffic/occupancy_t4013.csv",
+      "domain": "Traffic",
+      "rows": 2499,
+      "complete_test_events": 2,
+      "positive_test_points": 250,
+      "normal_W100_training_windows": 1400,
+      "normal_W100_validation_windows_for_early_stopping": 500,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_GOOG.csv",
+      "domain": "Twitter",
+      "rows": 15842,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 8067,
+      "normal_W100_validation_windows_for_early_stopping": 2778,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_UPS.csv",
+      "domain": "Twitter",
+      "rows": 15866,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 7417,
+      "normal_W100_validation_windows_for_early_stopping": 3173,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_FB.csv",
+      "domain": "Twitter",
+      "rows": 15833,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 8510,
+      "normal_W100_validation_windows_for_early_stopping": 2277,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTweets/Twitter_volume_KO.csv",
+      "domain": "Twitter",
+      "rows": 15851,
+      "complete_test_events": 1,
+      "positive_test_points": 529,
+      "normal_W100_training_windows": 8783,
+      "normal_W100_validation_windows_for_early_stopping": 2542,
+      "reason": "eligible"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_network_in_257a54.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4032,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 1818,
+      "normal_W100_validation_windows_for_early_stopping": 806,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realAWSCloudwatch/ec2_network_in_5abac7.csv",
+      "domain": "AWS CloudWatch",
+      "rows": 4719,
+      "complete_test_events": 0,
+      "positive_test_points": 0,
+      "normal_W100_training_windows": 2396,
+      "normal_W100_validation_windows_for_early_stopping": 608,
+      "reason": "no_complete_test_event_or_insufficient_clean_train_validation_windows"
+    },
+    {
+      "dataset": "realTraffic/speed_6005.csv",
+      "domain": "Traffic",
+      "rows": 2500,
+      "complete_test_events": 1,
+      "positive_test_points": 239,
+      "normal_W100_training_windows": 1401,
+      "normal_W100_validation_windows_for_early_stopping": 500,
+      "reason": "eligible"
+    }
+  ],
+  "eligibility": "At least one complete labeled event wholly inside the 20% chronological test partition, positive test labels, >=100 normal-only W=100 training windows."
+}

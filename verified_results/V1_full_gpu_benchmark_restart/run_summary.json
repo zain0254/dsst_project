@@ -1,0 +1,89 @@
+{
+  "selected_datasets": [
+    "realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv",
+    "realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv",
+    "realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv",
+    "realTweets/Twitter_volume_AAPL.csv",
+    "realTweets/Twitter_volume_AMZN.csv",
+    "realTraffic/TravelTime_387.csv",
+    "realTraffic/TravelTime_451.csv",
+    "realKnownCause/ambient_temperature_system_failure.csv",
+    "realKnownCause/machine_temperature_system_failure.csv",
+    "realKnownCause/nyc_taxi.csv"
+  ],
+  "dataset_count": 10,
+  "window_sizes": [
+    30,
+    50,
+    100
+  ],
+  "model_run_seeds": [
+    15,
+    42,
+    123
+  ],
+  "numpy_seed": 42,
+  "train_validation_test_split": {
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "test_fraction": 0.2
+  },
+  "rolling_threshold_lookback": "same as sequence length W",
+  "high_variance_percentile_from_train": 75.0,
+  "model_hyperparameters": {
+    "hidden_size": 64,
+    "latent_size": 32,
+    "epochs": 20,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "patience": 4
+  },
+  "threshold_grids": {
+    "fixed_percentiles": [
+      95.0,
+      97.0,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      99.7,
+      99.9
+    ],
+    "fixed_k_values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0
+    ],
+    "mad_lambda_values": [
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      4.5,
+      5.0,
+      6.0
+    ]
+  },
+  "requested_device": "cuda",
+  "models_trained": 90,
+  "metric_rows": 360,
+  "research_questions_report": "research_question_results.md",
+  "benchmark_comparison_outputs": [
+    "benchmark_method_summary.csv",
+    "per_dataset_comparison.csv",
+    "pairwise_proposed_vs_baselines.csv",
+    "comparison_by_window_size.csv",
+    "domain_comparison.csv",
+    "high_variance_fpr_by_dataset.csv",
+    "seed_variability.csv"
+  ],
+  "nab_score_note": "NAB-style test-partition score; not the official NAB corpus leaderboard score."
+}

@@ -1,0 +1,5 @@
+Method,Precision mean (n=4),Recall mean (n=4),F1 mean all files (n=10),F1 mean test-positive files (n=4),Accuracy mean (n=10; secondary),FPR mean (n=10),ROC-AUC mean (n=4),PR-AUC/AP mean (n=4),High-variance FPR mean (n=8),Event recall mean (n=4),Normalized event delay fraction (n=4; lower better),NAB-style test score mean (n=4; higher better)
+Fixed percentile,0.474538,0.166003,0.090548,0.226370,0.851045,0.060313,0.644941,0.442794,0.202069,0.828704,0.570937,-270.556370
+Fixed mean + k sigma,0.442982,0.188404,0.092477,0.231193,0.836105,0.089288,0.644941,0.442794,0.258032,0.875000,0.562415,-326.143556
+Rolling mean + 3 sigma (V1; fixed multiplier),0.284023,0.045544,0.030061,0.075153,0.851088,0.042433,0.644941,0.442794,0.077812,0.949074,0.320893,-330.634767
+Proposed moving median + lambda MAD,0.317889,0.269877,0.096577,0.241442,0.697653,0.234817,0.644941,0.442794,0.398905,1.000000,0.197759,-2027.219840

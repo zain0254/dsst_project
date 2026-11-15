@@ -1,0 +1,27 @@
+LSTM-AE BENCHMARK VERSION 2 - QUICK START
+
+1. Open the project directory in WSL/Linux terminal.
+2. Activate the verified WSL virtual environment:
+   source ~/venvs/lstm_tf221_gpu/bin/activate
+3. Check Python/TensorFlow/GPU before installing anything:
+   python --version
+   python -c "import tensorflow as tf; print(tf.__version__, tf.config.list_physical_devices('GPU'))"
+   nvidia-smi
+4. The completed V2 benchmark and selected dataset manifest are already included. Do not rerun `prepare_expanded_nab_manifest.py` unless intentionally rebuilding the cohort.
+5. Run tests:
+   python run_tests.py
+6. To reproduce the benchmark, use a fresh output directory so archived results are not overwritten:
+   python run_experiment.py --config config_v2.json --output-dir outputs/version2_reproduction_fresh --device cuda --skip-eda
+7. Keep `outputs/version2_normal_only_fpr05/` and the archived V1 evidence unchanged.
+8. When complete, inspect the new output directory, for example:
+   outputs/version2_reproduction_fresh/run_summary.json
+   outputs/version2_reproduction_fresh/dataset_split_audit.csv
+   outputs/version2_reproduction_fresh/validation_tuning.csv
+   outputs/version2_reproduction_fresh/test_metrics.csv
+   outputs/version2_reproduction_fresh/statistical_tests.csv
+   outputs/version2_reproduction_fresh/hypothesis_outcomes.csv
+
+Completed matrix: 23 selected datasets x 3 windows x 3 seeds = 207 LSTM-AE fits. Seventeen datasets are event-evaluable in the test partition; six retained legacy datasets have no positive test labels.
+
+IMPORTANT SCIENTIFIC QUALIFICATION:
+Version 2 uses NAB labels to remove anomalous training windows and fit the scaler on normal training rows. This is a label-filtered normal-only training protocol, not a fully label-free deployment setup. Version 2 also uses a 5% validation FPR budget and validation-calibrated rolling k-sigma. It is a revised experiment and must be reported separately from Version 1.

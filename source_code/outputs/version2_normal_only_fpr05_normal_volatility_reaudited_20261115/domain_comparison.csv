@@ -1,0 +1,6 @@
+domain,datasets,mean_f1_improvement,median_f1_improvement,std_f1_improvement,ci95_low,ci95_high,positive_dataset_count,wilcoxon_statistic,p_value_exploratory,interpretation,improvement_rank
+Ad Exchange,1,0.257707150580638,0.257707150580638,,0.257707150580638,0.257707150580638,1,,,Descriptive; small domain sample size limits inference.,1
+Traffic,4,0.15549622141567399,0.14847926333222178,0.08476069224162806,0.09061992970144125,0.22738947121335895,4,0.0,0.125,Descriptive; small domain sample size limits inference.,2
+Twitter,3,0.09536924344377014,0.1318000351602122,0.06999260589265058,0.014675347756977528,0.13963234741412067,3,0.0,0.25,Descriptive; small domain sample size limits inference.,3
+AWS CloudWatch,4,0.0875018276655186,0.1034521478634908,0.10533237609174011,-0.011265416413803572,0.1703187515468686,3,1.0,0.25,Descriptive; small domain sample size limits inference.,4
+Known Cause,5,0.06215849265946187,0.01967359713838587,0.10456953065831877,-0.0002406398695808054,0.1558048619968184,3,3.0,0.3125,Descriptive; small domain sample size limits inference.,5

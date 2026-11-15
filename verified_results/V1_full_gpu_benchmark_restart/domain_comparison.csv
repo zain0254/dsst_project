@@ -1,0 +1,3 @@
+domain,datasets,mean_f1_improvement,median_f1_improvement,std_f1_improvement,ci95_low,ci95_high,positive_dataset_count,wilcoxon_statistic,p_value_exploratory,interpretation,improvement_rank
+AWS CloudWatch,1,0.22002314184395502,0.22002314184395502,,0.22002314184395502,0.22002314184395502,1,,,Descriptive; small domain sample size limits inference.,1
+Known Cause,3,0.14837758068799412,0.18028127450278975,0.12693533326569478,0.00853386733246407,0.2563176002287285,3,0.0,0.25,Descriptive; small domain sample size limits inference.,2

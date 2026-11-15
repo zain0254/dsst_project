@@ -1,0 +1,2 @@
+dataset,domain,proposed_high_variance_fpr,baseline_high_variance_fpr,absolute_fpr_reduction,relative_fpr_reduction
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,0.10545454545454545,0.059393939393939395,-0.04606060606060606,-0.7755102040816326

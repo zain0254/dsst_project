@@ -1,0 +1,7 @@
+dataset,domain,window_size,method,method_name,f1_mean_across_seeds,f1_std_across_seeds,fpr_mean_across_seeds,fpr_std_across_seeds,nab_style_mean_across_seeds,nab_style_std_across_seeds,seed_runs
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.2128935532233883,,0.21356553620531624,,-1058.6174126669841,,1
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,fixed_percentile,Fixed percentile,0.22416302765647744,,0.22639780018331807,,-1128.3557236627112,,1
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),0.07966457023060797,,0.08707607699358387,,-366.99157053848876,,1
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_lambda_mad,Moving median + lambda raw MAD (original),0.09523809523809523,,0.10724106324472961,,-486.4523433572278,,1
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),0.09393346379647749,,0.11365719523373052,,-518.7634860034386,,1
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.09302325581395349,,0.08065994500458296,,-332.69516529818486,,1

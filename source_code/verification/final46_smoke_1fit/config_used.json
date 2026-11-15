@@ -1,0 +1,99 @@
+{
+  "nab_repo_raw_base": "https://raw.githubusercontent.com/numenta/NAB/master",
+  "labels_file": "labels/combined_windows.json",
+  "selected_files": {
+    "realKnownCause/ambient_temperature_system_failure.csv": "Known Cause"
+  },
+  "split": {
+    "train_fraction": 0.6,
+    "validation_fraction": 0.2,
+    "test_fraction": 0.2
+  },
+  "window_sizes": [
+    30
+  ],
+  "run_seeds": [
+    15
+  ],
+  "numpy_seed": 42,
+  "eda_rolling_window": 50,
+  "high_variance_percentile": 75.0,
+  "threshold_grids": {
+    "fixed_percentiles": [
+      95.0,
+      97.0,
+      98.0,
+      98.5,
+      99.0,
+      99.5,
+      99.7,
+      99.9,
+      99.95,
+      99.99
+    ],
+    "fixed_k_values": [
+      0.5,
+      1.0,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      3.5,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0
+    ],
+    "mad_lambda_values": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0,
+      16.0,
+      20.0,
+      30.0,
+      50.0,
+      100.0
+    ],
+    "robust_scale_multiplier_values": [
+      0.5,
+      0.75,
+      1.0,
+      1.25,
+      1.5,
+      2.0,
+      2.5,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0
+    ]
+  },
+  "model": {
+    "hidden_size": 64,
+    "latent_size": 32,
+    "epochs": 2,
+    "batch_size": 256,
+    "learning_rate": 0.001,
+    "weight_decay": 1e-05,
+    "patience": 1
+  },
+  "normal_only_training": true,
+  "validation_fpr_budget": 0.05,
+  "mad_relative_floor": 0.001
+}

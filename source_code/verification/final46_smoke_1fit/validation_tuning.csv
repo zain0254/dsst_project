@@ -1,0 +1,7 @@
+dataset,domain,window_size,seed,method,method_name,selected_parameter,validation_f1,validation_fpr,validation_fpr_budget,validation_fpr_budget_met,validation_positive_points,validation_points
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,fixed_percentile,Fixed percentile,97.0,0.0,0.048864418444597386,0.05,True,0,1453
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,fixed_mean_k_sigma,Fixed mean + k sigma,2.5,0.0,0.04542326221610461,0.05,True,0,1453
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),3.0,0.0,0.04198210598761184,0.05,True,0,1453
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,moving_median_lambda_mad,Moving median + lambda raw MAD (original),8.0,0.0,0.03509979353062629,0.05,True,0,1453
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,moving_median_scaled_mad,Moving median + k scaled MAD (1.4826 x MAD),5.0,0.0,0.038540949759119064,0.05,True,0,1453
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,moving_median_iqr_scale,Moving median + k IQR scale (IQR / 1.349),4.0,0.0,0.042670337233310394,0.05,True,0,1453

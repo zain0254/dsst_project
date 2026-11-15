@@ -1,0 +1,15 @@
+{
+  "python_version": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "platform": "Linux-6.18.58.1-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "numpy_version": "1.26.4",
+  "pandas_version": "2.2.3",
+  "scikit_learn_version": "1.5.2",
+  "scipy_version": "1.13.1",
+  "matplotlib_version": "3.9.2",
+  "framework_runtime": {
+    "framework": "TensorFlow",
+    "framework_version": "2.21.0",
+    "cuda_available": true,
+    "accelerator_name": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  }
+}

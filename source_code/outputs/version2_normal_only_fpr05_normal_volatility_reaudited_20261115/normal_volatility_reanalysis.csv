@@ -1,0 +1,829 @@
+dataset,domain,window_size,seed,method,high_variance_normal_points,high_variance_fpr,complete_test_events,partial_test_events_excluded
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,15,fixed_percentile,141,0.014184397163120567,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,141,0.014184397163120567,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,141,0.0070921985815602835,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,141,0.20567375886524822,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,42,fixed_percentile,141,0.09219858156028368,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,141,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,141,0.0070921985815602835,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,141,0.20567375886524822,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,123,fixed_percentile,141,0.19858156028368795,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,141,0.10638297872340426,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,141,0.0070921985815602835,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,141,0.2127659574468085,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,15,fixed_percentile,149,0.3422818791946309,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,149,0.2550335570469799,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,149,0.006711409395973154,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,149,0.3288590604026846,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,42,fixed_percentile,149,0.4161073825503356,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,149,0.28859060402684567,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,149,0.006711409395973154,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,149,0.3288590604026846,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,123,fixed_percentile,149,0.3959731543624161,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,149,0.28859060402684567,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,149,0.006711409395973154,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,149,0.3288590604026846,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,15,fixed_percentile,229,0.004366812227074236,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,229,0.4672489082969432,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,229,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,229,0.24890829694323144,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,42,fixed_percentile,229,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,229,0.4672489082969432,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,229,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,229,0.24890829694323144,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,123,fixed_percentile,229,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,229,0.4672489082969432,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,229,0.0,2,0
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,229,0.24890829694323144,2,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,15,fixed_percentile,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,219,0.0684931506849315,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,219,0.1506849315068493,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,42,fixed_percentile,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,219,0.0684931506849315,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,219,0.1506849315068493,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,123,fixed_percentile,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,219,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,219,0.0684931506849315,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,219,0.1506849315068493,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,15,fixed_percentile,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,178,0.09550561797752809,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,178,0.0898876404494382,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,42,fixed_percentile,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,178,0.0898876404494382,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,178,0.11235955056179775,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,123,fixed_percentile,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,178,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,178,0.0898876404494382,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,178,0.0898876404494382,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,15,fixed_percentile,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,260,0.1076923076923077,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,260,0.011538461538461539,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,42,fixed_percentile,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,260,0.1076923076923077,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,260,0.011538461538461539,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,123,fixed_percentile,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,260,0.1076923076923077,0,0
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,260,0.0,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,15,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,42,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,123,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,15,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,42,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,123,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,15,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,42,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,123,fixed_percentile,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,0,,0,0
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,0,,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,15,fixed_percentile,1218,0.07389162561576355,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,15,fixed_mean_k_sigma,1218,0.07635467980295567,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,15,rolling_mean_3sigma,1218,0.006568144499178982,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,15,moving_median_lambda_mad,1218,0.0755336617405583,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,42,fixed_percentile,1218,0.05747126436781609,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,42,fixed_mean_k_sigma,1218,0.07717569786535304,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,42,rolling_mean_3sigma,1218,0.011494252873563218,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,42,moving_median_lambda_mad,1218,0.08045977011494253,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,123,fixed_percentile,1218,0.07881773399014778,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,123,fixed_mean_k_sigma,1218,0.07963875205254516,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,123,rolling_mean_3sigma,1218,0.006568144499178982,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,30,123,moving_median_lambda_mad,1218,0.08456486042692939,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,15,fixed_percentile,1214,0.10790774299835255,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,15,fixed_mean_k_sigma,1214,0.10378912685337727,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,15,rolling_mean_3sigma,1214,0.006589785831960461,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,15,moving_median_lambda_mad,1214,0.13756177924217464,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,42,fixed_percentile,1214,0.08978583196046129,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,42,fixed_mean_k_sigma,1214,0.08731466227347612,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,42,rolling_mean_3sigma,1214,0.006589785831960461,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,42,moving_median_lambda_mad,1214,0.13344316309719934,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,123,fixed_percentile,1214,0.12026359143327842,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,123,fixed_mean_k_sigma,1214,0.12026359143327842,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,123,rolling_mean_3sigma,1214,0.007413509060955519,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,50,123,moving_median_lambda_mad,1214,0.14909390444810544,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,15,fixed_percentile,1300,0.2353846153846154,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,15,fixed_mean_k_sigma,1300,0.16153846153846155,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,15,rolling_mean_3sigma,1300,0.003076923076923077,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,15,moving_median_lambda_mad,1300,0.1776923076923077,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,42,fixed_percentile,1300,0.21076923076923076,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,42,fixed_mean_k_sigma,1300,0.16076923076923078,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,42,rolling_mean_3sigma,1300,0.003076923076923077,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,42,moving_median_lambda_mad,1300,0.19153846153846155,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,123,fixed_percentile,1300,0.22923076923076924,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,123,fixed_mean_k_sigma,1300,0.16153846153846155,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,123,rolling_mean_3sigma,1300,0.003076923076923077,0,0
+realTweets/Twitter_volume_AAPL.csv,Twitter,100,123,moving_median_lambda_mad,1300,0.18923076923076923,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,15,fixed_percentile,565,0.05309734513274336,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,15,fixed_mean_k_sigma,565,0.05486725663716814,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,15,rolling_mean_3sigma,565,0.07256637168141593,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,15,moving_median_lambda_mad,565,0.16283185840707964,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,42,fixed_percentile,565,0.04424778761061947,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,42,fixed_mean_k_sigma,565,0.05132743362831858,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,42,rolling_mean_3sigma,565,0.07256637168141593,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,42,moving_median_lambda_mad,565,0.11150442477876106,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,123,fixed_percentile,565,0.05486725663716814,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,123,fixed_mean_k_sigma,565,0.05486725663716814,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,123,rolling_mean_3sigma,565,0.0831858407079646,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,30,123,moving_median_lambda_mad,565,0.12920353982300886,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,15,fixed_percentile,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,15,fixed_mean_k_sigma,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,15,rolling_mean_3sigma,568,0.058098591549295774,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,15,moving_median_lambda_mad,568,0.0721830985915493,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,42,fixed_percentile,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,42,fixed_mean_k_sigma,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,42,rolling_mean_3sigma,568,0.07042253521126761,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,42,moving_median_lambda_mad,568,0.0721830985915493,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,123,fixed_percentile,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,123,fixed_mean_k_sigma,568,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,123,rolling_mean_3sigma,568,0.07394366197183098,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,50,123,moving_median_lambda_mad,568,0.09154929577464789,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,15,fixed_percentile,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,15,fixed_mean_k_sigma,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,15,rolling_mean_3sigma,411,0.09245742092457421,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,15,moving_median_lambda_mad,411,0.029197080291970802,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,42,fixed_percentile,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,42,fixed_mean_k_sigma,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,42,rolling_mean_3sigma,411,0.12652068126520682,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,42,moving_median_lambda_mad,411,0.012165450121654502,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,123,fixed_percentile,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,123,fixed_mean_k_sigma,411,0.0,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,123,rolling_mean_3sigma,411,0.12652068126520682,0,0
+realTweets/Twitter_volume_AMZN.csv,Twitter,100,123,moving_median_lambda_mad,411,0.0,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,15,fixed_percentile,99,0.5858585858585859,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,15,fixed_mean_k_sigma,99,0.6363636363636364,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,15,rolling_mean_3sigma,99,0.1717171717171717,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,15,moving_median_lambda_mad,99,0.42424242424242425,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,42,fixed_percentile,99,0.5656565656565656,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,42,fixed_mean_k_sigma,99,0.6363636363636364,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,42,rolling_mean_3sigma,99,0.1414141414141414,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,42,moving_median_lambda_mad,99,0.42424242424242425,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,123,fixed_percentile,99,0.5959595959595959,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,123,fixed_mean_k_sigma,99,0.6363636363636364,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,123,rolling_mean_3sigma,99,0.15151515151515152,0,0
+realTraffic/TravelTime_387.csv,Traffic,30,123,moving_median_lambda_mad,99,0.42424242424242425,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,15,fixed_percentile,157,0.6560509554140127,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,15,fixed_mean_k_sigma,157,0.6560509554140127,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,15,rolling_mean_3sigma,157,0.07006369426751592,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,15,moving_median_lambda_mad,157,0.4585987261146497,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,42,fixed_percentile,157,0.6496815286624203,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,42,fixed_mean_k_sigma,157,0.31210191082802546,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,42,rolling_mean_3sigma,157,0.08280254777070063,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,42,moving_median_lambda_mad,157,0.46496815286624205,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,123,fixed_percentile,157,0.6496815286624203,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,123,fixed_mean_k_sigma,157,0.6496815286624203,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,123,rolling_mean_3sigma,157,0.07643312101910828,0,0
+realTraffic/TravelTime_387.csv,Traffic,50,123,moving_median_lambda_mad,157,0.46496815286624205,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,15,fixed_percentile,194,0.9742268041237113,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,15,fixed_mean_k_sigma,194,0.5154639175257731,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,15,rolling_mean_3sigma,194,0.04639175257731959,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,15,moving_median_lambda_mad,194,0.31958762886597936,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,42,fixed_percentile,194,0.9742268041237113,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,42,fixed_mean_k_sigma,194,0.5154639175257731,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,42,rolling_mean_3sigma,194,0.05154639175257732,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,42,moving_median_lambda_mad,194,0.31958762886597936,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,123,fixed_percentile,194,0.9742268041237113,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,123,fixed_mean_k_sigma,194,0.5154639175257731,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,123,rolling_mean_3sigma,194,0.04639175257731959,0,0
+realTraffic/TravelTime_387.csv,Traffic,100,123,moving_median_lambda_mad,194,0.31443298969072164,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,15,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,15,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,15,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,15,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,42,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,42,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,42,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,42,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,123,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,123,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,123,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,30,123,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,15,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,15,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,15,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,15,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,42,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,42,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,42,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,42,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,123,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,123,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,123,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,50,123,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,15,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,15,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,15,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,15,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,42,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,42,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,42,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,42,moving_median_lambda_mad,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,123,fixed_percentile,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,123,fixed_mean_k_sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,123,rolling_mean_3sigma,0,,0,0
+realTraffic/TravelTime_451.csv,Traffic,100,123,moving_median_lambda_mad,0,,0,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,fixed_percentile,825,0.1406060606060606,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,fixed_mean_k_sigma,825,0.08121212121212121,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,rolling_mean_3sigma,825,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,15,moving_median_lambda_mad,825,0.03272727272727273,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,42,fixed_percentile,825,0.18666666666666668,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,42,fixed_mean_k_sigma,825,0.13696969696969696,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,42,rolling_mean_3sigma,825,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,42,moving_median_lambda_mad,825,0.006060606060606061,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,123,fixed_percentile,825,0.15636363636363637,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,123,fixed_mean_k_sigma,825,0.08484848484848485,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,123,rolling_mean_3sigma,825,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,30,123,moving_median_lambda_mad,825,0.01818181818181818,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,15,fixed_percentile,787,0.29860228716645487,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,15,fixed_mean_k_sigma,787,0.2782719186785261,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,15,rolling_mean_3sigma,787,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,15,moving_median_lambda_mad,787,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,42,fixed_percentile,787,0.289707750952986,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,42,fixed_mean_k_sigma,787,0.28081321473951715,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,42,rolling_mean_3sigma,787,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,42,moving_median_lambda_mad,787,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,123,fixed_percentile,787,0.29860228716645487,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,123,fixed_mean_k_sigma,787,0.289707750952986,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,123,rolling_mean_3sigma,787,0.0038119440914866584,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,50,123,moving_median_lambda_mad,787,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,15,fixed_percentile,777,0.38481338481338484,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,15,fixed_mean_k_sigma,777,0.38481338481338484,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,15,rolling_mean_3sigma,777,0.002574002574002574,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,15,moving_median_lambda_mad,777,0.06692406692406692,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,42,fixed_percentile,777,0.3732303732303732,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,42,fixed_mean_k_sigma,777,0.3732303732303732,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,42,rolling_mean_3sigma,777,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,42,moving_median_lambda_mad,777,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,123,fixed_percentile,777,0.3770913770913771,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,123,fixed_mean_k_sigma,777,0.36936936936936937,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,123,rolling_mean_3sigma,777,0.0,1,0
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,100,123,moving_median_lambda_mad,777,0.0,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,15,fixed_percentile,754,0.129973474801061,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,15,fixed_mean_k_sigma,754,0.11538461538461539,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,15,rolling_mean_3sigma,754,0.08488063660477453,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,15,moving_median_lambda_mad,754,0.11273209549071618,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,42,fixed_percentile,754,0.1259946949602122,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,42,fixed_mean_k_sigma,754,0.13925729442970822,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,42,rolling_mean_3sigma,754,0.07161803713527852,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,42,moving_median_lambda_mad,754,0.10742705570291777,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,123,fixed_percentile,754,0.1419098143236074,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,123,fixed_mean_k_sigma,754,0.11140583554376658,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,123,rolling_mean_3sigma,754,0.08090185676392574,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,30,123,moving_median_lambda_mad,754,0.08885941644562334,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,15,fixed_percentile,644,0.16304347826086957,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,15,fixed_mean_k_sigma,644,0.15062111801242237,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,15,rolling_mean_3sigma,644,0.06055900621118013,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,15,moving_median_lambda_mad,644,0.0,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,42,fixed_percentile,644,0.1972049689440994,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,42,fixed_mean_k_sigma,644,0.20186335403726707,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,42,rolling_mean_3sigma,644,0.06521739130434782,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,42,moving_median_lambda_mad,644,0.013975155279503106,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,123,fixed_percentile,644,0.15527950310559005,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,123,fixed_mean_k_sigma,644,0.14751552795031056,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,123,rolling_mean_3sigma,644,0.06521739130434782,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,50,123,moving_median_lambda_mad,644,0.015527950310559006,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,15,fixed_percentile,491,0.3319755600814664,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,15,fixed_mean_k_sigma,491,0.3421588594704684,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,15,rolling_mean_3sigma,491,0.05295315682281059,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,15,moving_median_lambda_mad,491,0.0,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,42,fixed_percentile,491,0.31771894093686354,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,42,fixed_mean_k_sigma,491,0.3319755600814664,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,42,rolling_mean_3sigma,491,0.09979633401221996,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,42,moving_median_lambda_mad,491,0.0,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,123,fixed_percentile,491,0.39918533604887985,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,123,fixed_mean_k_sigma,491,0.395112016293279,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,123,rolling_mean_3sigma,491,0.07942973523421588,1,0
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,100,123,moving_median_lambda_mad,491,0.0,1,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,15,fixed_percentile,388,0.01804123711340206,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,15,fixed_mean_k_sigma,388,0.01804123711340206,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,15,rolling_mean_3sigma,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,15,moving_median_lambda_mad,388,0.0,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,42,fixed_percentile,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,42,fixed_mean_k_sigma,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,42,rolling_mean_3sigma,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,42,moving_median_lambda_mad,388,0.0,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,123,fixed_percentile,388,0.010309278350515464,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,123,fixed_mean_k_sigma,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,123,rolling_mean_3sigma,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,30,123,moving_median_lambda_mad,388,0.002577319587628866,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,15,fixed_percentile,509,0.04911591355599214,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,15,fixed_mean_k_sigma,509,0.05108055009823183,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,15,rolling_mean_3sigma,509,0.029469548133595286,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,15,moving_median_lambda_mad,509,0.05304518664047151,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,42,fixed_percentile,509,0.047151277013752456,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,42,fixed_mean_k_sigma,509,0.05697445972495088,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,42,rolling_mean_3sigma,509,0.04518664047151277,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,42,moving_median_lambda_mad,509,0.07269155206286837,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,123,fixed_percentile,509,0.009823182711198428,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,123,fixed_mean_k_sigma,509,0.023575638506876228,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,123,rolling_mean_3sigma,509,0.021611001964636542,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,50,123,moving_median_lambda_mad,509,0.0137524557956778,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,15,fixed_percentile,550,0.00909090909090909,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,15,fixed_mean_k_sigma,550,0.07272727272727272,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,15,rolling_mean_3sigma,550,0.09636363636363636,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,15,moving_median_lambda_mad,550,0.06,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,42,fixed_percentile,550,0.034545454545454546,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,42,fixed_mean_k_sigma,550,0.07272727272727272,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,42,rolling_mean_3sigma,550,0.02727272727272727,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,42,moving_median_lambda_mad,550,0.03090909090909091,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,123,fixed_percentile,550,0.025454545454545455,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,123,fixed_mean_k_sigma,550,0.04909090909090909,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,123,rolling_mean_3sigma,550,0.0,3,0
+realKnownCause/nyc_taxi.csv,Known Cause,100,123,moving_median_lambda_mad,550,0.038181818181818185,3,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,15,fixed_percentile,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,42,fixed_percentile,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,123,fixed_percentile,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,166,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,15,fixed_percentile,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,42,fixed_percentile,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,123,fixed_percentile,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,145,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,15,fixed_percentile,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,88,0.045454545454545456,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,42,fixed_percentile,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,88,0.045454545454545456,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,123,fixed_percentile,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,88,0.056818181818181816,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,88,0.0,1,0
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,88,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,15,fixed_percentile,203,0.04433497536945813,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,15,fixed_mean_k_sigma,203,0.18719211822660098,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,15,rolling_mean_3sigma,203,0.03940886699507389,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,15,moving_median_lambda_mad,203,0.07389162561576355,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,42,fixed_percentile,203,0.04433497536945813,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,42,fixed_mean_k_sigma,203,0.18719211822660098,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,42,rolling_mean_3sigma,203,0.03940886699507389,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,42,moving_median_lambda_mad,203,0.10837438423645321,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,123,fixed_percentile,203,0.04433497536945813,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,123,fixed_mean_k_sigma,203,0.18719211822660098,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,123,rolling_mean_3sigma,203,0.04433497536945813,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,30,123,moving_median_lambda_mad,203,0.10837438423645321,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,15,fixed_percentile,217,0.1889400921658986,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,15,fixed_mean_k_sigma,217,0.1336405529953917,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,15,rolling_mean_3sigma,217,0.018433179723502304,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,15,moving_median_lambda_mad,217,0.15207373271889402,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,42,fixed_percentile,217,0.1889400921658986,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,42,fixed_mean_k_sigma,217,0.1336405529953917,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,42,rolling_mean_3sigma,217,0.018433179723502304,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,42,moving_median_lambda_mad,217,0.15207373271889402,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,123,fixed_percentile,217,0.1889400921658986,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,123,fixed_mean_k_sigma,217,0.1336405529953917,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,123,rolling_mean_3sigma,217,0.018433179723502304,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,50,123,moving_median_lambda_mad,217,0.15207373271889402,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,15,fixed_percentile,288,0.4895833333333333,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,15,fixed_mean_k_sigma,288,0.2777777777777778,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,15,rolling_mean_3sigma,288,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,15,moving_median_lambda_mad,288,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,42,fixed_percentile,288,0.4895833333333333,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,42,fixed_mean_k_sigma,288,0.2777777777777778,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,42,rolling_mean_3sigma,288,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,42,moving_median_lambda_mad,288,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,123,fixed_percentile,288,0.4895833333333333,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,123,fixed_mean_k_sigma,288,0.2777777777777778,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,123,rolling_mean_3sigma,288,0.0,1,0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,100,123,moving_median_lambda_mad,288,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,15,fixed_percentile,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,15,fixed_mean_k_sigma,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,15,rolling_mean_3sigma,1597,0.008140262993112084,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,15,moving_median_lambda_mad,1597,0.0068879148403256105,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,42,fixed_percentile,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,42,fixed_mean_k_sigma,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,42,rolling_mean_3sigma,1597,0.012523481527864746,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,42,moving_median_lambda_mad,1597,0.00939261114589856,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,123,fixed_percentile,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,123,fixed_mean_k_sigma,1597,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,123,rolling_mean_3sigma,1597,0.002504696305572949,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,30,123,moving_median_lambda_mad,1597,0.0006261740763932373,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,15,fixed_percentile,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,15,fixed_mean_k_sigma,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,15,rolling_mean_3sigma,2009,0.0004977600796416127,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,15,moving_median_lambda_mad,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,42,fixed_percentile,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,42,fixed_mean_k_sigma,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,42,rolling_mean_3sigma,2009,0.0014932802389248383,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,42,moving_median_lambda_mad,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,123,fixed_percentile,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,123,fixed_mean_k_sigma,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,123,rolling_mean_3sigma,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,50,123,moving_median_lambda_mad,2009,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,15,fixed_percentile,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,15,fixed_mean_k_sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,15,rolling_mean_3sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,15,moving_median_lambda_mad,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,42,fixed_percentile,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,42,fixed_mean_k_sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,42,rolling_mean_3sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,42,moving_median_lambda_mad,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,123,fixed_percentile,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,123,fixed_mean_k_sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,123,rolling_mean_3sigma,2111,0.0,1,0
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,100,123,moving_median_lambda_mad,2111,0.0,1,0
+realTraffic/speed_t4013.csv,Traffic,30,15,fixed_percentile,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,15,fixed_mean_k_sigma,57,0.22807017543859648,2,0
+realTraffic/speed_t4013.csv,Traffic,30,15,rolling_mean_3sigma,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,15,moving_median_lambda_mad,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,42,fixed_percentile,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,42,fixed_mean_k_sigma,57,0.22807017543859648,2,0
+realTraffic/speed_t4013.csv,Traffic,30,42,rolling_mean_3sigma,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,42,moving_median_lambda_mad,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,123,fixed_percentile,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,123,fixed_mean_k_sigma,57,0.22807017543859648,2,0
+realTraffic/speed_t4013.csv,Traffic,30,123,rolling_mean_3sigma,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,30,123,moving_median_lambda_mad,57,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,15,fixed_percentile,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,15,fixed_mean_k_sigma,53,0.018867924528301886,2,0
+realTraffic/speed_t4013.csv,Traffic,50,15,rolling_mean_3sigma,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,15,moving_median_lambda_mad,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,42,fixed_percentile,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,42,fixed_mean_k_sigma,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,42,rolling_mean_3sigma,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,42,moving_median_lambda_mad,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,123,fixed_percentile,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,123,fixed_mean_k_sigma,53,0.018867924528301886,2,0
+realTraffic/speed_t4013.csv,Traffic,50,123,rolling_mean_3sigma,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,50,123,moving_median_lambda_mad,53,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,15,fixed_percentile,81,0.9382716049382716,2,0
+realTraffic/speed_t4013.csv,Traffic,100,15,fixed_mean_k_sigma,81,0.9753086419753086,2,0
+realTraffic/speed_t4013.csv,Traffic,100,15,rolling_mean_3sigma,81,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,15,moving_median_lambda_mad,81,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,42,fixed_percentile,81,0.9382716049382716,2,0
+realTraffic/speed_t4013.csv,Traffic,100,42,fixed_mean_k_sigma,81,0.9753086419753086,2,0
+realTraffic/speed_t4013.csv,Traffic,100,42,rolling_mean_3sigma,81,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,42,moving_median_lambda_mad,81,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,123,fixed_percentile,81,0.9506172839506173,2,0
+realTraffic/speed_t4013.csv,Traffic,100,123,fixed_mean_k_sigma,81,0.9753086419753086,2,0
+realTraffic/speed_t4013.csv,Traffic,100,123,rolling_mean_3sigma,81,0.0,2,0
+realTraffic/speed_t4013.csv,Traffic,100,123,moving_median_lambda_mad,81,0.0,2,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,15,fixed_percentile,840,0.1988095238095238,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,15,fixed_mean_k_sigma,840,0.1880952380952381,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,15,rolling_mean_3sigma,840,0.005952380952380952,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,15,moving_median_lambda_mad,840,0.04404761904761905,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,42,fixed_percentile,840,0.2119047619047619,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,42,fixed_mean_k_sigma,840,0.1976190476190476,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,42,rolling_mean_3sigma,840,0.005952380952380952,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,42,moving_median_lambda_mad,840,0.04404761904761905,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,123,fixed_percentile,840,0.20357142857142857,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,123,fixed_mean_k_sigma,840,0.2011904761904762,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,123,rolling_mean_3sigma,840,0.005952380952380952,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,30,123,moving_median_lambda_mad,840,0.047619047619047616,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,15,fixed_percentile,917,0.3326063249727372,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,15,fixed_mean_k_sigma,917,0.2159214830970556,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,15,rolling_mean_3sigma,917,0.0021810250817884407,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,15,moving_median_lambda_mad,917,0.04362050163576881,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,42,fixed_percentile,917,0.3336968375136314,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,42,fixed_mean_k_sigma,917,0.2159214830970556,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,42,rolling_mean_3sigma,917,0.003271537622682661,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,42,moving_median_lambda_mad,917,0.04362050163576881,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,123,fixed_percentile,917,0.3326063249727372,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,123,fixed_mean_k_sigma,917,0.21810250817884405,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,123,rolling_mean_3sigma,917,0.0021810250817884407,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,50,123,moving_median_lambda_mad,917,0.04362050163576881,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,15,fixed_percentile,1148,0.47038327526132406,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,15,fixed_mean_k_sigma,1148,0.29181184668989546,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,15,rolling_mean_3sigma,1148,0.0008710801393728223,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,15,moving_median_lambda_mad,1148,0.0,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,42,fixed_percentile,1148,0.3074912891986063,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,42,fixed_mean_k_sigma,1148,0.2952961672473868,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,42,rolling_mean_3sigma,1148,0.0008710801393728223,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,42,moving_median_lambda_mad,1148,0.033101045296167246,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,123,fixed_percentile,1148,0.4921602787456446,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,123,fixed_mean_k_sigma,1148,0.289198606271777,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,123,rolling_mean_3sigma,1148,0.0008710801393728223,1,0
+realTweets/Twitter_volume_IBM.csv,Twitter,100,123,moving_median_lambda_mad,1148,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,15,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,606,0.018151815181518153,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,42,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,606,0.0165016501650165,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,123,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,606,0.039603960396039604,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,15,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,606,0.07095709570957096,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,42,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,606,0.057755775577557754,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,123,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,606,0.06435643564356436,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,15,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,606,0.0049504950495049506,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,42,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,606,0.0016501650165016502,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,606,0.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,123,fixed_percentile,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,606,1.0,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,606,0.0049504950495049506,1,0
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,606,0.0,1,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,15,fixed_percentile,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,15,fixed_mean_k_sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,15,rolling_mean_3sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,15,moving_median_lambda_mad,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,42,fixed_percentile,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,42,fixed_mean_k_sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,42,rolling_mean_3sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,42,moving_median_lambda_mad,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,123,fixed_percentile,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,123,fixed_mean_k_sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,123,rolling_mean_3sigma,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,30,123,moving_median_lambda_mad,245,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,15,fixed_percentile,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,15,fixed_mean_k_sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,15,rolling_mean_3sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,15,moving_median_lambda_mad,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,42,fixed_percentile,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,42,fixed_mean_k_sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,42,rolling_mean_3sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,42,moving_median_lambda_mad,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,123,fixed_percentile,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,123,fixed_mean_k_sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,123,rolling_mean_3sigma,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,50,123,moving_median_lambda_mad,231,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,15,fixed_percentile,301,0.10631229235880399,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,15,fixed_mean_k_sigma,301,0.10631229235880399,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,15,rolling_mean_3sigma,301,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,15,moving_median_lambda_mad,301,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,42,fixed_percentile,301,0.10631229235880399,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,42,fixed_mean_k_sigma,301,0.10631229235880399,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,42,rolling_mean_3sigma,301,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,42,moving_median_lambda_mad,301,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,123,fixed_percentile,301,0.10963455149501661,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,123,fixed_mean_k_sigma,301,0.10631229235880399,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,123,rolling_mean_3sigma,301,0.0,2,0
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,100,123,moving_median_lambda_mad,301,0.0,2,0
+realTraffic/speed_7578.csv,Traffic,30,15,fixed_percentile,76,0.35526315789473684,2,0
+realTraffic/speed_7578.csv,Traffic,30,15,fixed_mean_k_sigma,76,0.2631578947368421,2,0
+realTraffic/speed_7578.csv,Traffic,30,15,rolling_mean_3sigma,76,0.15789473684210525,2,0
+realTraffic/speed_7578.csv,Traffic,30,15,moving_median_lambda_mad,76,0.14473684210526316,2,0
+realTraffic/speed_7578.csv,Traffic,30,42,fixed_percentile,76,0.35526315789473684,2,0
+realTraffic/speed_7578.csv,Traffic,30,42,fixed_mean_k_sigma,76,0.2631578947368421,2,0
+realTraffic/speed_7578.csv,Traffic,30,42,rolling_mean_3sigma,76,0.21052631578947367,2,0
+realTraffic/speed_7578.csv,Traffic,30,42,moving_median_lambda_mad,76,0.17105263157894737,2,0
+realTraffic/speed_7578.csv,Traffic,30,123,fixed_percentile,76,0.35526315789473684,2,0
+realTraffic/speed_7578.csv,Traffic,30,123,fixed_mean_k_sigma,76,0.2631578947368421,2,0
+realTraffic/speed_7578.csv,Traffic,30,123,rolling_mean_3sigma,76,0.15789473684210525,2,0
+realTraffic/speed_7578.csv,Traffic,30,123,moving_median_lambda_mad,76,0.14473684210526316,2,0
+realTraffic/speed_7578.csv,Traffic,50,15,fixed_percentile,109,0.44036697247706424,2,0
+realTraffic/speed_7578.csv,Traffic,50,15,fixed_mean_k_sigma,109,0.3761467889908257,2,0
+realTraffic/speed_7578.csv,Traffic,50,15,rolling_mean_3sigma,109,0.045871559633027525,2,0
+realTraffic/speed_7578.csv,Traffic,50,15,moving_median_lambda_mad,109,0.10091743119266056,2,0
+realTraffic/speed_7578.csv,Traffic,50,42,fixed_percentile,109,0.43119266055045874,2,0
+realTraffic/speed_7578.csv,Traffic,50,42,fixed_mean_k_sigma,109,0.3669724770642202,2,0
+realTraffic/speed_7578.csv,Traffic,50,42,rolling_mean_3sigma,109,0.045871559633027525,2,0
+realTraffic/speed_7578.csv,Traffic,50,42,moving_median_lambda_mad,109,0.10091743119266056,2,0
+realTraffic/speed_7578.csv,Traffic,50,123,fixed_percentile,109,0.43119266055045874,2,0
+realTraffic/speed_7578.csv,Traffic,50,123,fixed_mean_k_sigma,109,0.3761467889908257,2,0
+realTraffic/speed_7578.csv,Traffic,50,123,rolling_mean_3sigma,109,0.045871559633027525,2,0
+realTraffic/speed_7578.csv,Traffic,50,123,moving_median_lambda_mad,109,0.08256880733944955,2,0
+realTraffic/speed_7578.csv,Traffic,100,15,fixed_percentile,110,0.8454545454545455,2,0
+realTraffic/speed_7578.csv,Traffic,100,15,fixed_mean_k_sigma,110,0.8454545454545455,2,0
+realTraffic/speed_7578.csv,Traffic,100,15,rolling_mean_3sigma,110,0.2727272727272727,2,0
+realTraffic/speed_7578.csv,Traffic,100,15,moving_median_lambda_mad,110,0.10909090909090909,2,0
+realTraffic/speed_7578.csv,Traffic,100,42,fixed_percentile,110,0.8545454545454545,2,0
+realTraffic/speed_7578.csv,Traffic,100,42,fixed_mean_k_sigma,110,0.8454545454545455,2,0
+realTraffic/speed_7578.csv,Traffic,100,42,rolling_mean_3sigma,110,0.3090909090909091,2,0
+realTraffic/speed_7578.csv,Traffic,100,42,moving_median_lambda_mad,110,0.11818181818181818,2,0
+realTraffic/speed_7578.csv,Traffic,100,123,fixed_percentile,110,0.8454545454545455,2,0
+realTraffic/speed_7578.csv,Traffic,100,123,fixed_mean_k_sigma,110,0.8454545454545455,2,0
+realTraffic/speed_7578.csv,Traffic,100,123,rolling_mean_3sigma,110,0.22727272727272727,2,0
+realTraffic/speed_7578.csv,Traffic,100,123,moving_median_lambda_mad,110,0.10909090909090909,2,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,15,fixed_percentile,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,15,fixed_mean_k_sigma,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,15,rolling_mean_3sigma,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,15,moving_median_lambda_mad,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,42,fixed_percentile,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,42,fixed_mean_k_sigma,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,42,rolling_mean_3sigma,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,42,moving_median_lambda_mad,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,123,fixed_percentile,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,123,fixed_mean_k_sigma,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,123,rolling_mean_3sigma,1004,0.00099601593625498,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,30,123,moving_median_lambda_mad,1004,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,15,fixed_percentile,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,15,fixed_mean_k_sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,15,rolling_mean_3sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,15,moving_median_lambda_mad,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,42,fixed_percentile,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,42,fixed_mean_k_sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,42,rolling_mean_3sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,42,moving_median_lambda_mad,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,123,fixed_percentile,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,123,fixed_mean_k_sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,123,rolling_mean_3sigma,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,50,123,moving_median_lambda_mad,946,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,15,fixed_percentile,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,15,fixed_mean_k_sigma,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,15,rolling_mean_3sigma,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,15,moving_median_lambda_mad,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,42,fixed_percentile,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,42,fixed_mean_k_sigma,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,42,rolling_mean_3sigma,849,0.001177856301531213,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,42,moving_median_lambda_mad,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,123,fixed_percentile,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,123,fixed_mean_k_sigma,849,0.0,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,123,rolling_mean_3sigma,849,0.001177856301531213,1,0
+realTweets/Twitter_volume_CVS.csv,Twitter,100,123,moving_median_lambda_mad,849,0.0,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,15,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,15,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,15,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,15,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,42,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,42,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,42,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,42,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,123,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,123,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,123,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,30,123,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,15,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,15,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,15,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,15,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,42,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,42,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,42,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,42,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,123,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,123,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,123,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,50,123,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,15,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,15,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,15,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,15,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,42,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,42,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,42,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,42,moving_median_lambda_mad,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,123,fixed_percentile,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,123,fixed_mean_k_sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,123,rolling_mean_3sigma,0,,1,0
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,100,123,moving_median_lambda_mad,0,,1,0
+realTraffic/occupancy_t4013.csv,Traffic,30,15,fixed_percentile,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,15,fixed_mean_k_sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,15,rolling_mean_3sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,15,moving_median_lambda_mad,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,42,fixed_percentile,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,42,fixed_mean_k_sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,42,rolling_mean_3sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,42,moving_median_lambda_mad,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,123,fixed_percentile,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,123,fixed_mean_k_sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,123,rolling_mean_3sigma,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,30,123,moving_median_lambda_mad,76,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,15,fixed_percentile,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,15,fixed_mean_k_sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,15,rolling_mean_3sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,15,moving_median_lambda_mad,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,42,fixed_percentile,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,42,fixed_mean_k_sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,42,rolling_mean_3sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,42,moving_median_lambda_mad,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,123,fixed_percentile,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,123,fixed_mean_k_sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,123,rolling_mean_3sigma,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,50,123,moving_median_lambda_mad,47,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,15,fixed_percentile,85,0.9058823529411765,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,15,fixed_mean_k_sigma,85,0.9058823529411765,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,15,rolling_mean_3sigma,85,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,15,moving_median_lambda_mad,85,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,42,fixed_percentile,85,0.9058823529411765,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,42,fixed_mean_k_sigma,85,0.9058823529411765,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,42,rolling_mean_3sigma,85,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,42,moving_median_lambda_mad,85,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,123,fixed_percentile,85,0.8941176470588236,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,123,fixed_mean_k_sigma,85,0.9058823529411765,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,123,rolling_mean_3sigma,85,0.0,2,0
+realTraffic/occupancy_t4013.csv,Traffic,100,123,moving_median_lambda_mad,85,0.0,2,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,15,fixed_percentile,518,0.04826254826254826,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,15,fixed_mean_k_sigma,518,0.009652509652509652,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,15,rolling_mean_3sigma,518,0.0694980694980695,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,15,moving_median_lambda_mad,518,0.16216216216216217,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,42,fixed_percentile,518,0.09845559845559845,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,42,fixed_mean_k_sigma,518,0.08687258687258688,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,42,rolling_mean_3sigma,518,0.07528957528957529,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,42,moving_median_lambda_mad,518,0.16216216216216217,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,123,fixed_percentile,518,0.07142857142857142,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,123,fixed_mean_k_sigma,518,0.03667953667953668,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,123,rolling_mean_3sigma,518,0.06177606177606178,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,30,123,moving_median_lambda_mad,518,0.23745173745173745,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,15,fixed_percentile,434,0.11290322580645161,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,15,fixed_mean_k_sigma,434,0.11290322580645161,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,15,rolling_mean_3sigma,434,0.0576036866359447,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,15,moving_median_lambda_mad,434,0.24423963133640553,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,42,fixed_percentile,434,0.11290322580645161,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,42,fixed_mean_k_sigma,434,0.02304147465437788,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,42,rolling_mean_3sigma,434,0.05069124423963134,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,42,moving_median_lambda_mad,434,0.22811059907834103,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,123,fixed_percentile,434,0.11059907834101383,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,123,fixed_mean_k_sigma,434,0.11059907834101383,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,123,rolling_mean_3sigma,434,0.06451612903225806,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,50,123,moving_median_lambda_mad,434,0.2350230414746544,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,15,fixed_percentile,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,15,fixed_mean_k_sigma,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,15,rolling_mean_3sigma,480,0.07708333333333334,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,15,moving_median_lambda_mad,480,0.27708333333333335,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,42,fixed_percentile,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,42,fixed_mean_k_sigma,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,42,rolling_mean_3sigma,480,0.07708333333333334,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,42,moving_median_lambda_mad,480,0.27708333333333335,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,123,fixed_percentile,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,123,fixed_mean_k_sigma,480,0.0,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,123,rolling_mean_3sigma,480,0.07708333333333334,1,0
+realTweets/Twitter_volume_KO.csv,Twitter,100,123,moving_median_lambda_mad,480,0.27708333333333335,1,0
+realTraffic/speed_6005.csv,Traffic,30,15,fixed_percentile,63,0.20634920634920634,1,0
+realTraffic/speed_6005.csv,Traffic,30,15,fixed_mean_k_sigma,63,0.20634920634920634,1,0
+realTraffic/speed_6005.csv,Traffic,30,15,rolling_mean_3sigma,63,0.015873015873015872,1,0
+realTraffic/speed_6005.csv,Traffic,30,15,moving_median_lambda_mad,63,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,30,42,fixed_percentile,63,0.20634920634920634,1,0
+realTraffic/speed_6005.csv,Traffic,30,42,fixed_mean_k_sigma,63,0.20634920634920634,1,0
+realTraffic/speed_6005.csv,Traffic,30,42,rolling_mean_3sigma,63,0.015873015873015872,1,0
+realTraffic/speed_6005.csv,Traffic,30,42,moving_median_lambda_mad,63,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,30,123,fixed_percentile,63,0.25396825396825395,1,0
+realTraffic/speed_6005.csv,Traffic,30,123,fixed_mean_k_sigma,63,0.23809523809523808,1,0
+realTraffic/speed_6005.csv,Traffic,30,123,rolling_mean_3sigma,63,0.031746031746031744,1,0
+realTraffic/speed_6005.csv,Traffic,30,123,moving_median_lambda_mad,63,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,15,fixed_percentile,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,15,fixed_mean_k_sigma,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,15,rolling_mean_3sigma,66,0.015151515151515152,1,0
+realTraffic/speed_6005.csv,Traffic,50,15,moving_median_lambda_mad,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,42,fixed_percentile,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,42,fixed_mean_k_sigma,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,42,rolling_mean_3sigma,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,42,moving_median_lambda_mad,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,123,fixed_percentile,66,0.030303030303030304,1,0
+realTraffic/speed_6005.csv,Traffic,50,123,fixed_mean_k_sigma,66,0.13636363636363635,1,0
+realTraffic/speed_6005.csv,Traffic,50,123,rolling_mean_3sigma,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,50,123,moving_median_lambda_mad,66,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,15,fixed_percentile,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,15,fixed_mean_k_sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,15,rolling_mean_3sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,15,moving_median_lambda_mad,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,42,fixed_percentile,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,42,fixed_mean_k_sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,42,rolling_mean_3sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,42,moving_median_lambda_mad,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,123,fixed_percentile,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,123,fixed_mean_k_sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,123,rolling_mean_3sigma,102,0.0,1,0
+realTraffic/speed_6005.csv,Traffic,100,123,moving_median_lambda_mad,102,0.0,1,0

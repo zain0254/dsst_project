@@ -1,0 +1,24 @@
+dataset,domain,proposed_high_variance_fpr,baseline_high_variance_fpr,absolute_fpr_reduction,relative_fpr_reduction
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,0.26193506080167256,0.004601202659177813,-0.25733385814249476,-55.92752095567937
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,0.08525183878423835,0.08931525266756912,0.0040634138833307715,0.04549518432707989
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,,,,
+realAWSCloudwatch/ec2_cpu_utilization_ac20cd.csv,AWS CloudWatch,,,,
+realAWSCloudwatch/elb_request_count_8c0756.csv,AWS CloudWatch,0.0,0.0,0.0,
+realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv,AWS CloudWatch,0.0,0.030986431976530986,0.030986431976530986,1.0
+realAdExchange/exchange-4_cpm_results.csv,Ad Exchange,0.08298462136059467,0.01982802761445698,-0.06315659374613769,-3.185218165627783
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,0.013765973765973766,0.0007095496294988036,-0.013056424136474962,-18.40100197881504
+realKnownCause/cpu_utilization_asg_misconfiguration.csv,Known Cause,0.0018785222291797115,0.0027954979050129145,0.000916975675833203,0.3280187311851936
+realKnownCause/ec2_request_latency_system_failure.csv,Known Cause,0.0,0.0,0.0,
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,0.037613519247702155,0.07339706059923344,0.035783541351531285,0.487533711287411
+realKnownCause/nyc_taxi.csv,Known Cause,0.03012860257528396,0.02529283477433276,-0.004835767800951199,-0.19119121459088284
+realTraffic/TravelTime_387.csv,Traffic,0.40165228355523186,0.09314174717900066,-0.3085105363762312,-3.3122691566364204
+realTraffic/TravelTime_451.csv,Traffic,,,,
+realTraffic/occupancy_t4013.csv,Traffic,0.0,0.0,0.0,
+realTraffic/speed_6005.csv,Traffic,0.0,0.00873817540484207,0.00873817540484207,1.0
+realTraffic/speed_7578.csv,Traffic,0.12014373576420898,0.16366904194040843,0.04352530617619946,0.26593487479475153
+realTraffic/speed_t4013.csv,Traffic,0.0,0.0,0.0,
+realTweets/Twitter_volume_AAPL.csv,Twitter,0.13545763083682757,0.006050487980840761,-0.1294071428559868,-21.387885285577365
+realTweets/Twitter_volume_AMZN.csv,Twitter,0.07564642737558015,0.08625357291757542,0.010607145541995266,0.12297630327883967
+realTweets/Twitter_volume_CVS.csv,Twitter,0.0,0.0003724142821463785,0.0003724142821463785,1.0
+realTweets/Twitter_volume_IBM.csv,Twitter,0.033297426213084375,0.003122663451280096,-0.03017476276180428,-9.663149177806696
+realTweets/Twitter_volume_KO.csv,Twitter,0.23337770374060696,0.06784719627461563,-0.16553050746599132,-2.4397545743231093

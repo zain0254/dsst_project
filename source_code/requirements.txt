@@ -1,0 +1,8 @@
+# Verified V1 runtime (WSL2, Python 3.12.3, TensorFlow 2.21.0, CUDA GPU)
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+scipy==1.13.1
+matplotlib==3.9.2
+requests==2.32.3
+tensorflow==2.21.0

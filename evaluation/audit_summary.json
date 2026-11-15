@@ -1,0 +1,73 @@
+{
+  "benchmark": "V1 full_gpu_benchmark_restart",
+  "model_runs": 90,
+  "threshold_result_rows": 360,
+  "prediction_rows_verified": 360,
+  "prediction_files_missing": [],
+  "all_rows_gpu": true,
+  "max_abs_differences": {
+    "f1": 9.020562075079397e-17,
+    "fpr": 9.71445146547012e-17,
+    "pr_auc": 5.551115123125783e-17
+  },
+  "roc_auc_added_from_raw_scores": true,
+  "accuracy_added_from_predictions": true,
+  "train_labeled_anomaly_files": 9,
+  "validation_labeled_anomaly_files": 6,
+  "test_labeled_anomaly_files": 4,
+  "complete_test_events": 7,
+  "checks": [
+    {
+      "check": "Original metric rows",
+      "observed": 360,
+      "expected": 360,
+      "status": "PASS"
+    },
+    {
+      "check": "Unique model runs",
+      "observed": 90,
+      "expected": 90,
+      "status": "PASS"
+    },
+    {
+      "check": "Prediction files matched",
+      "observed": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "check": "Missing prediction files",
+      "observed": 0,
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "check": "All V1 metric rows recorded GPU device",
+      "observed": [
+        "GPU:0"
+      ],
+      "expected": [
+        "GPU:0"
+      ],
+      "status": "PASS"
+    },
+    {
+      "check": "F1 reproduces from prediction CSVs",
+      "observed_max_abs_difference": 9.020562075079397e-17,
+      "tolerance": 1e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "FPR reproduces from prediction CSVs",
+      "observed_max_abs_difference": 9.71445146547012e-17,
+      "tolerance": 1e-09,
+      "status": "PASS"
+    },
+    {
+      "check": "AP/PR-AUC reproduces from raw error scores",
+      "observed_max_abs_difference": 5.551115123125783e-17,
+      "tolerance": 1e-09,
+      "status": "PASS"
+    }
+  ]
+}

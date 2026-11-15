@@ -1,0 +1,9 @@
+hypothesis,metric,baseline,test,n_datasets_tested,datasets_improved_proposed,datasets_baseline_better,mean_difference_proposed_minus_baseline,statistic,p_value,alpha,p_value_holm_within_hypothesis,significant_holm_0_05
+H1: Proposed moving Median + MAD vs fixed-threshold F1,f1_score,fixed_percentile,Wilcoxon signed-rank (two-sided),1,1,0,0.04432368617510721,,,0.05,,False
+H1: Proposed moving Median + MAD vs fixed-threshold F1,f1_score,fixed_mean_k_sigma,Wilcoxon signed-rank (two-sided),1,0,1,-0.023603574848388126,,,0.05,,False
+H2: High-variance false-positive rate,high_variance_fpr,fixed_percentile,Paired t-test (two-sided),1,1,0,-0.05673758865248227,,,0.05,,False
+H2: High-variance false-positive rate,high_variance_fpr,fixed_mean_k_sigma,Paired t-test (two-sided),1,1,0,-0.20567375886524822,,,0.05,,False
+H2: High-variance false-positive rate,high_variance_fpr,rolling_mean_3sigma,Paired t-test (two-sided),1,0,1,0.19858156028368792,,,0.05,,False
+H3: NAB-style event score,nab_style_score,fixed_percentile,Wilcoxon signed-rank (two-sided),1,1,0,46.195360248531465,,,0.05,,False
+H3: NAB-style event score,nab_style_score,fixed_mean_k_sigma,Wilcoxon signed-rank (two-sided),1,1,0,103.94536024853144,,,0.05,,False
+H3: NAB-style event score,nab_style_score,rolling_mean_3sigma,Wilcoxon signed-rank (two-sided),1,0,1,-52.9402343322966,,,0.05,,False

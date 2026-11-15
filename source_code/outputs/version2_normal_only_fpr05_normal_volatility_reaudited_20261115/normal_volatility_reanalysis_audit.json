@@ -1,0 +1,89 @@
+{
+  "input_directory": "outputs/version2_normal_only_fpr05",
+  "output_directory": "outputs/version2_normal_only_fpr05_normal_volatility_reaudited_20261115",
+  "model_retraining_performed": false,
+  "model_fits": 207,
+  "metric_rows": 828,
+  "prediction_files_read_from_source": 207,
+  "prediction_files_duplicated": false,
+  "prediction_source_directory": "outputs/version2_normal_only_fpr05/predictions/",
+  "recalculated_rows": 828,
+  "changed_metrics": [
+    "high_variance_fpr",
+    "high_variance_normal_points"
+  ],
+  "max_abs_difference_unchanged_metrics": {
+    "window_size": 0.0,
+    "seed": 0.0,
+    "selected_parameter": 0.0,
+    "best_validation_loss": 0.0,
+    "epochs_run": 0.0,
+    "test_points": 0.0,
+    "test_positive_points": 0.0,
+    "partial_events_excluded_from_event_scoring": 0.0,
+    "precision": 1.1102230246251565e-16,
+    "recall": 9.71445146547012e-17,
+    "f1_score": 9.71445146547012e-17,
+    "accuracy": 1.1102230246251565e-16,
+    "false_positive_rate": 9.93129189996722e-17,
+    "roc_auc": 1.1102230246251565e-16,
+    "pr_auc": 1.1102230246251565e-16,
+    "true_positives": 0.0,
+    "false_positives": 0.0,
+    "true_negatives": 0.0,
+    "false_negatives": 0.0,
+    "test_anomaly_events": 0.0,
+    "detected_anomaly_events": 0.0,
+    "event_recall": 0.0,
+    "mean_detection_delay_fraction": 1.1102230246251565e-16,
+    "mean_detection_delay_seconds": 0.0,
+    "mean_early_detection_credit": 1.1102230246251565e-16,
+    "nab_style_score": 4.547473508864641e-13,
+    "nab_raw_score": 7.105427357601002e-15,
+    "nab_events_scored": 0.0,
+    "nab_false_positive_penalty": 3.552713678800501e-15
+  },
+  "high_variance_reference": "75th percentile of full trailing-window standard deviations from fully normal training histories only",
+  "high_variance_fpr_mean_by_method_macro_dataset": {
+    "fixed_mean_k_sigma": 0.21407985442698813,
+    "fixed_percentile": 0.2232872329795844,
+    "moving_median_lambda_mad": 0.07565666731250925,
+    "rolling_mean_3sigma": 0.03380605786282611
+  },
+  "hypothesis_outcomes": [
+    {
+      "hypothesis": "H1: Proposed moving Median + MAD achieves higher average F1 than at least one fixed-threshold baseline",
+      "proposal_wording": "Higher average F1-score than at least one fixed-threshold baseline",
+      "evaluable_datasets": 17,
+      "fixed_baselines_with_positive_mean_difference": "",
+      "outcome": "Not supported on evaluated datasets",
+      "interpretation": "The inferential sample is event-evaluable datasets only; repeated seeds and windows are averaged within dataset.",
+      "per_baseline_results": null,
+      "fixed_baselines_with_nonnegative_mean_NAB_difference": null,
+      "support_components": null
+    },
+    {
+      "hypothesis": "H2: Proposed threshold reduces false-positive alerts on some series with changing normal variability",
+      "proposal_wording": "Reduce false-positive rates on some time series with changing normal variability",
+      "evaluable_datasets": 20,
+      "fixed_baselines_with_positive_mean_difference": null,
+      "outcome": "Partially observed on some series; aggregate evidence is inconclusive",
+      "interpretation": "A per-series win is not presented as a general benefit when the aggregate false-alarm rate is worse.",
+      "per_baseline_results": "fixed_percentile: better=11, worse=7, mean_delta=-0.147631; fixed_mean_k_sigma: better=13, worse=6, mean_delta=-0.138423; rolling_mean_3sigma: better=8, worse=8, mean_delta=0.0418506",
+      "fixed_baselines_with_nonnegative_mean_NAB_difference": null,
+      "support_components": null
+    },
+    {
+      "hypothesis": "H3: Proposed method maintains or improves NAB score through fewer false alerts or earlier detection",
+      "proposal_wording": "Maintain or improve NAB score by fewer false alerts or earlier detection",
+      "evaluable_datasets": 17,
+      "fixed_baselines_with_positive_mean_difference": null,
+      "outcome": "Potentially supported descriptively; statistical power is limited",
+      "interpretation": "NAB-style scores are computed over complete events in the held-out test segment; they are not official full-corpus NAB leaderboard scores.",
+      "per_baseline_results": null,
+      "fixed_baselines_with_nonnegative_mean_NAB_difference": "fixed_percentile;fixed_mean_k_sigma",
+      "support_components": "fixed_percentile mean FPR delta=-0.147954; fixed_percentile mean delay-fraction delta=-0.0135367; fixed_mean_k_sigma mean FPR delta=-0.146322; fixed_mean_k_sigma mean delay-fraction delta=-0.0105363"
+    }
+  ],
+  "statistical_test_rows": 8
+}

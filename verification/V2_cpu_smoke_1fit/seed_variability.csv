@@ -1,0 +1,5 @@
+dataset,domain,window_size,method,method_name,f1_mean_across_seeds,f1_std_across_seeds,fpr_mean_across_seeds,fpr_std_across_seeds,nab_style_mean_across_seeds,nab_style_std_across_seeds,seed_runs
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,fixed_mean_k_sigma,Fixed mean + k sigma,0.22692307692307692,,0.145679012345679,,-67.26379351267266,,1
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,fixed_percentile,Fixed percentile,0.1589958158995816,,0.09382716049382717,,-9.513793512672686,,1
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,moving_median_lambda_mad,Moving median + lambda MAD (proposed),0.2033195020746888,,0.07654320987654321,,36.68156673585878,,1
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,30,rolling_mean_3sigma,Rolling mean + k sigma (validation-calibrated),0.0196078431372549,,0.0049382716049382715,,89.62180106815538,,1

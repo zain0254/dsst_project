@@ -1,0 +1,2 @@
+domain,datasets,mean_f1_improvement,median_f1_improvement,std_f1_improvement,ci95_low,ci95_high,positive_dataset_count,wilcoxon_statistic,p_value_exploratory,interpretation,improvement_rank
+Known Cause,1,0.0022148394241417457,0.0022148394241417457,,0.0022148394241417457,0.0022148394241417457,1,,,Descriptive; small domain sample size limits inference.,1

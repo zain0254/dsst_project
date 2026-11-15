@@ -1,0 +1,4 @@
+hypothesis,criterion,observed_count,evaluable_datasets,configured_datasets,p_value,outcome
+H1: Median + MAD improves F1 on at least 7 of 10 datasets,All 10 configured datasets must have a complete labeled test event; at least 7 show higher mean test F1; Wilcoxon p < 0.05 across the 10 paired datasets,4,4.0,10,0.125,Not supported / inconclusive
+H2: Median + MAD reduces high-variance FPR by at least 15%,Mean relative reduction >= 15% and paired t-test p < 0.05,0,,10,0.0009833978415045228,Not supported / inconclusive
+H3: AWS CloudWatch has the greatest improvement,AWS CloudWatch ranks first by mean dataset-level F1 improvement,1,,2,,Not supported descriptively

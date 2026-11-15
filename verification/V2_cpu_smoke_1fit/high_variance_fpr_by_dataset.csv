@@ -1,0 +1,2 @@
+dataset,domain,proposed_high_variance_fpr,baseline_high_variance_fpr,absolute_fpr_reduction,relative_fpr_reduction
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,0.20567375886524822,0.0070921985815602835,-0.19858156028368792,-27.999999999999996

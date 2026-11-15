@@ -1,0 +1,11 @@
+dataset,domain,proposed_high_variance_fpr,baseline_high_variance_fpr,absolute_fpr_reduction,relative_fpr_reduction
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,0.32624065933050905,0.07412904182783447,-0.2521116175026746,-3.4009830868744615
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,0.602360105155856,0.05869198991362198,-0.543668115242234,-9.263071775933307
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,,,,
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,0.09355822254765908,0.05277772808433044,-0.04078049446332864,-0.7726837805175675
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,0.5107607831678056,0.12086266694289348,-0.3898981162249121,-3.225959893878028
+realKnownCause/nyc_taxi.csv,Known Cause,0.26271971720426956,0.04666357437070212,-0.21605614283356744,-4.630081294612935
+realTraffic/TravelTime_387.csv,Traffic,0.42130470698772404,0.09293358947527529,-0.32837111751244874,-3.5333953995160265
+realTraffic/TravelTime_451.csv,Traffic,,,,
+realTweets/Twitter_volume_AAPL.csv,Twitter,0.3555749119483955,0.08982814711170171,-0.2657467648366938,-2.9583908093555182
+realTweets/Twitter_volume_AMZN.csv,Twitter,0.618718299975044,0.08660868700179394,-0.5321096129732501,-6.1438365064029705

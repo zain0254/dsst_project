@@ -1,0 +1,3 @@
+hypothesis,test,n_datasets_tested,datasets_improved_proposed,datasets_configured,mean_f1_difference_proposed_minus_baseline,statistic,p_value,alpha,mean_fpr_difference_proposed_minus_baseline,mean_relative_fpr_reduction,datasets_with_at_least_15pct_reduction
+H1: Proposed F1 vs rolling mean + 3 sigma,Wilcoxon signed-rank (two-sided),4,4,10,0.16628897097698433,0.0,0.125,0.05,,,
+H2: High-variance FPR reduction vs rolling mean + 3 sigma,Paired t-test (two-sided),8,0,10,,-5.423526204138956,0.0009833978415045228,0.05,0.3210927476986387,-4.2410503183863515,0.0

@@ -1,0 +1,9 @@
+check,observed,expected,status,observed_max_abs_difference,tolerance
+Original metric rows,360,360,PASS,,
+Unique model runs,90,90,PASS,,
+Prediction files matched,True,True,PASS,,
+Missing prediction files,0,0,PASS,,
+All V1 metric rows recorded GPU device,['GPU:0'],['GPU:0'],PASS,,
+F1 reproduces from prediction CSVs,,,PASS,9.020562075079397e-17,1e-09
+FPR reproduces from prediction CSVs,,,PASS,9.71445146547012e-17,1e-09
+AP/PR-AUC reproduces from raw error scores,,,PASS,5.551115123125783e-17,1e-09

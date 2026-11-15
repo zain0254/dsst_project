@@ -1,0 +1,11 @@
+dataset,domain,train_labeled_anomaly_points,validation_labeled_anomaly_points,test_labeled_anomaly_points,complete_test_events,partial_test_events_excluded,series_rows,has_train_anomaly_labels,has_validation_anomaly_labels,has_test_anomaly_labels
+realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv,AWS CloudWatch,0,0,402,2,0,4032,False,False,True
+realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv,AWS CloudWatch,201,201,0,0,0,4032,True,True,False
+realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv,AWS CloudWatch,201,201,0,0,0,4032,True,True,False
+realKnownCause/ambient_temperature_system_failure.csv,Known Cause,363,0,363,1,0,7267,True,False,True
+realKnownCause/machine_temperature_system_failure.csv,Known Cause,1134,567,567,1,0,22683,True,True,True
+realKnownCause/nyc_taxi.csv,Known Cause,207,207,621,3,0,10320,True,True,True
+realTraffic/TravelTime_387.csv,Traffic,181,68,0,0,0,2500,True,True,False
+realTraffic/TravelTime_451.csv,Traffic,217,0,0,0,0,2162,True,False,False
+realTweets/Twitter_volume_AAPL.csv,Twitter,1588,0,0,0,0,15902,True,False,False
+realTweets/Twitter_volume_AMZN.csv,Twitter,790,790,0,0,0,15831,True,True,False

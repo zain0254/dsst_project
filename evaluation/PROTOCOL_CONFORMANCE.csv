@@ -1,0 +1,23 @@
+Proposal requirement,Observed V1 implementation,Status,Interpretation / action
+Use NAB data,"10 selected real NAB time series across AWS CloudWatch, Twitter, Traffic, and Known Cause",Implemented as subset,"This is a 10-file subset of NAB v1.1, not the full 58-file corpus."
+Chronological 60/20/20 split,Split audit confirms 60% train / 20% validation / 20% test per file,Implemented,No random split observed; chronological split is used.
+Fit scaler on training partition only,MinMax scaler is fit on the train partition and applied to validation/test data,Implemented,No validation/test scaling leakage identified. Train partition may contain labeled anomalies.
+Do not use NAB labels to train unsupervised AE,V1 does not use labels to filter training windows,Label-blind but contaminated,9/10 selected files contain labeled anomaly points in the training partition; training windows are not normal-only. This can contaminate the learned normal profile.
+Train LSTM AE on normal sequences,All training windows are included in V1,Partial,"The model is label-blind but not guaranteed to be trained only on normal sequences. V2 changes this to label-filtered normal-only training, which is a separate label-informed regime."
+Use same model and score stream for each threshold,Same saved reconstruction errors feed the four threshold methods per model run,Implemented,Thresholding is the intended experimental variable within each fit.
+Fixed high-percentile threshold,Implemented with validation-selected percentile,Implemented,Proposal baseline B1.
+Fixed mean + k standard deviation,Implemented with validation-selected k,Implemented,Proposal baseline B2.
+Moving Median + lambda MAD,Implemented as causal moving median + raw MAD of preceding errors; lambda selected on validation,Implemented,No 1.4826 normal-consistency scale multiplier is used.
+Only use prior errors for moving threshold,Rolling threshold logic uses past errors and excludes current score,Implemented,Causal test-time threshold history.
+"Precision, recall, F1 and FPR",Stored in raw V1 test_metrics.csv,Implemented,Pointwise metrics.
+PR-AUC and ROC-AUC,PR-AUC stored as average precision; ROC-AUC absent in raw V1 table and recomputed from saved continuous reconstruction scores,Partial then repaired,Augmented evaluation CSV includes ROC-AUC; raw file preserved unchanged. AUC is based on raw error scores and is identical across threshold methods.
+Accuracy as secondary metric,Not stored in raw V1 table; recomputed from predictions,Partial then repaired,Accuracy is included in augmented metrics; interpret cautiously because of class imbalance.
+Detection delay,Normalized event-delay fraction stored; elapsed seconds recomputed from timestamps,Partial then repaired,Use normalized delay fraction for cross-dataset summaries; raw seconds are not comparable across irregular sampling intervals.
+NAB score,Custom NAB Standard-profile-like score calculated on complete anomaly events inside test partitions,Partial / scope-limited,"Call it NAB-style test-partition score, not official full-corpus NAB leaderboard score."
+Validation calibration,54/90 fit-runs had validation positive labels; the other 36 had none,Uneven objective,"When positives existed, validation F1 was available; with no positives, FPR minimization was used. V2 applies one shared FPR-budget rule."
+EDA objectives,EDA summary and plots exist; loader cleans timestamp/value columns and duplicate timestamps,Partial,"The exported EDA summary does not explicitly tabulate every requested cleaning audit field (e.g., duplicate and missing counts) in one consolidated table."
+Statistical unit,Aggregations/tests operate on dataset-level averages across seeds and windows,Appropriate but underpowered,Do not count 90 model fits as 90 independent datasets. Event-based paired tests have n=4.
+Dataset coverage across categories,4/10 files have positive test labels and complete test events; Twitter and Traffic have none,Limited,7 complete test events: 2 AWS CloudWatch and 5 Known Cause. RQ4 domain claims are descriptive only.
+CSV/raw prediction reproducibility,90 prediction CSVs match all 360 method-level rows,Verified,"F1, FPR and PR-AUC reproduce within 1e-9; all runs recorded GPU:0."
+Full-benchmark ROC-AUC,Raw V1 metrics omitted ROC-AUC,Recomputed,ROC-AUC=0.6449 on 4 test-positive datasets; same across thresholds because the underlying score series is shared.
+Version 2 full benchmark,Not executed in this handover environment,Pending,V2 is benchmark-ready and smoke-tested; its expanded normal-only GPU results must be generated on the user's WSL environment.
