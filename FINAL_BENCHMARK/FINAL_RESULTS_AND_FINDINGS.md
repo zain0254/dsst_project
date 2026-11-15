@@ -45,9 +45,14 @@ The fixed baseline is better on 17 of 18 paired datasets in each comparison.
 
 No comparison is significant after Holm correction. This is not a formal non-inferiority test.
 
-## Critical reporting note
+## Why two H1 Holm-adjusted values appear
 
-The generated `research_question_results.md` contains an H1 Holm-adjusted p-value of 0.0005722 in its RQ2 table, whereas the dedicated `statistical_tests.csv` records 0.0003814697 for the H1 comparisons. This discrepancy must be reconciled in the report-generation code before academic submission. This document follows the dedicated statistical test table as the inferential source and explicitly records the mismatch rather than hiding it.
+The two values come from **different Holm correction families**, not from different raw p-values or a calculation error:
+
+- The proposal-specific H1 test in `statistical_tests.csv` corrects the two comparisons named by the original hypothesis: raw MAD versus fixed percentile and raw MAD versus fixed mean + k sigma. The adjusted p-value is **0.0003815**.
+- The broader RQ2 table in `pairwise_proposed_vs_baselines.csv` includes those two fixed baselines plus the additional rolling mean + k sigma comparator. Holm correction across all three comparisons gives **0.0005722** for the two fixed-baseline rows.
+
+The raw p-values are unchanged. For reporting the original H1 hypothesis, use the H1-specific correction family and quote **0.0003815** from `statistical_tests.csv`. For the broader three-comparator RQ2 analysis, use **0.0005722** and state that the rolling comparator is included in the correction family. The generated RQ report now explains this distinction.
 
 ## Interpretation
 
