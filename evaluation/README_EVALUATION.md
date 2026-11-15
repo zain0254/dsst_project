@@ -1,3 +1,5 @@
+> **Historical V1 notice:** This folder contains the original 10-dataset evaluation matrix and workbook. It is not the Final46 evaluation package. The authoritative completed benchmark is `source_code/outputs/final46_six_methods/`; see [Final Benchmark evaluation guide](../FINAL_BENCHMARK/EVALUATION/README.md).
+
 # Evaluation matrix guide
 
 All values in `evaluation_matrix_summary.csv` are equal-weighted means of per-dataset values. The `n` in each column header is the number of datasets with a valid value for that metric, not the number of model fits.
