@@ -17,6 +17,8 @@ How do fixed percentile, fixed mean + k sigma, and validation-calibrated rolling
 
 ## RQ2 - Does moving median + lambda MAD improve F1 and NAB-style score?
 
+> Holm correction in this RQ2 table is applied across three pairwise comparators: fixed percentile, fixed mean + k sigma, and rolling mean + k sigma. This differs from the proposal-specific H1 correction in statistical_tests.csv, which covers only the two fixed-threshold comparators stated in the original hypothesis. Use the H1-specific adjusted p-values in statistical_tests.csv when reporting H1; the different adjusted values reflect different correction families, not different raw tests.
+
 | Metric | Baseline | N datasets | Mean improvement (directional) | 95% bootstrap CI | Holm-adjusted p |
 |---|---|---:|---:|---:|---:|
 | f1_score | Fixed percentile | 18 | -0.2024 | [-0.3114, -0.1091] | 0.0005722 |
