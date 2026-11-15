@@ -2,7 +2,7 @@
 
 # Threshold Ablation Candidate — Protocol and Interpretation
 
-**Status:** Candidate implementation awaiting the full GPU benchmark. No new full-benchmark F1, NAB-style, or event metrics are claimed in this document.
+**Historical status:** This candidate protocol was evaluated in the completed Final46 benchmark. The pending-benchmark wording in the original protocol is retained below only as a record of its earlier state; current results are in `FINAL_BENCHMARK/FINAL_RESULTS_AND_FINDINGS.md`.
 
 ## Purpose
 
