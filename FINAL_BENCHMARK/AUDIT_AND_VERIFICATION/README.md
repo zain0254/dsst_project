@@ -24,7 +24,7 @@ All paths below are relative to `source_code/outputs/final46_six_methods/`:
 
 ## Issues to reconcile before paper submission
 
-1. `research_question_results.md` reports H1 Holm p=0.0005722 in its RQ2 table, while `statistical_tests.csv` records H1 Holm p=0.0003814697. The report-generation outputs must be reconciled.
+1. `research_question_results.md` uses a three-comparator Holm family for RQ2 (including rolling mean + k sigma), while `statistical_tests.csv` uses the two fixed comparators specified by proposal H1. The distinct adjusted p-values (0.0005722 versus 0.0003815) are expected; the raw p-values are unchanged. The generated RQ report now documents this distinction.
 2. `benchmark_method_summary.csv` provides dataset-level metric means and valid dataset counts. Preserve those denominators when quoting values.
 3. The Final46 configuration has latent size 32, but no latent-size ablation establishes optimality.
 4. Confirm whether model weight checkpoints exist before claiming all trained weights are archived.
