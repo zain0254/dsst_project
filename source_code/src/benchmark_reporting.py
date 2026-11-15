@@ -355,7 +355,13 @@ def _make_rq_report(
             f"{row.get('false_positive_rate_mean', math.nan):.4f} | "
             f"{row.get('pr_auc_mean', math.nan):.4f} | {row.get('nab_style_score_mean', math.nan):.2f} (n={int(row.get('nab_style_score_count', 0))}) |"
         )
-    lines += ["", "## RQ2 - Does moving median + lambda MAD improve F1 and NAB-style score?", ""]
+    lines += [
+        "",
+        "## RQ2 - Does moving median + lambda MAD improve F1 and NAB-style score?",
+        "",
+        "> Holm correction in this RQ2 table is applied across three pairwise comparators: fixed percentile, fixed mean + k sigma, and rolling mean + k sigma. This differs from the proposal-specific H1 correction in statistical_tests.csv, which covers only the two fixed-threshold comparators stated in the original hypothesis. Use the H1-specific adjusted p-values in statistical_tests.csv when reporting H1; the different adjusted values reflect different correction families, not different raw tests.",
+        "",
+    ]
     rq2 = pairwise[pairwise["metric"].isin(["f1_score", "nab_style_score", "pr_auc"])] if not pairwise.empty else pairwise
     if rq2.empty:
         lines.append("Not enough paired, evaluable datasets to calculate the comparisons.")
