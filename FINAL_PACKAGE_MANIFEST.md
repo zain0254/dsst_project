@@ -1,122 +1,41 @@
-# Final benchmark status
+# Final Package Manifest — Final46
 
-**Authoritative experiment:** `source_code/outputs/final46_six_methods/`
+## Authoritative experiment
 
-- 46 unique NAB datasets
-- 3 sequence lengths: 30, 50, and 100
-- 3 random seeds: 15, 42, and 123
-- 414 trained LSTM autoencoders
-- 6 threshold methods
-- 2,484 method-level test results
+**Final46 — Six-method LSTM Autoencoder benchmark**
 
-Evaluation populations: 18 datasets for point-level F1, 17 for complete-event NAB-style scoring, and 42 for high-variance FPR.
+Canonical output directory: **source_code/outputs/final46_six_methods/**
 
-The earlier 23-dataset V2 experiments are retained as historical evidence. They are not the authoritative final benchmark.
-
-# Final Submission Package Manifest
-
-## 1. Project Identification
-
-**Repository:** `dsst_project`
-
-**Research Title:** Robust Adaptive Thresholding for LSTM Autoencoder-Based Anomaly Detection in Streaming Time Series
-
-**Primary Dataset Source:** Numenta Anomaly Benchmark (NAB)
-
-This package contains the research proposal, implementation, experiment configuration, datasets, completed benchmark outputs, statistical reports, automated tests, verification evidence, and reproducibility instructions.
-
-The primary completed experiment is referred to as the **Primary Benchmark** throughout the project documentation. Historical V1 material is preserved separately.
-
----
-
-## 2. Overall Package Status
-
-The package contains a completed primary benchmark with the following experimental record:
-
-| Component | Verified project record |
+| Component | Verified record |
 |---|---:|
-| Selected primary benchmark datasets | 23 |
-| Event-evaluable test datasets | 17 |
-| No-positive-test datasets | 6 |
-| Window sizes | 3: 30, 50, 100 |
-| Random seeds | 3: 15, 42, 123 |
-| LSTM Autoencoder model fits | 207 |
-| Threshold methods per fit | 4 |
-| Evaluation rows | 828 |
-| Prediction files | 207 |
-| Automated tests passed | 20 |
-| Complete labeled test events | 24 |
-| Partial test events | 0 |
+| Selected NAB datasets | 46 |
+| NAB domains | 5 |
+| Sequence lengths | 30, 50, 100 |
+| Model-training seeds | 15, 42, 123 |
+| LSTM Autoencoder model fits | 414 |
+| Threshold methods per fit | 6 |
+| Method-level test metric rows | 2,484 |
+| Positive-test datasets | 18 |
+| Complete-event datasets | 17 |
+| Datasets without positive test points | 28 |
+| High-variance FPR-evaluable datasets | 42 |
 
-The earlier, historical V2 benchmark's 207 model fits consist of:
+The run summary and saved configuration are the primary experiment metadata:
+- source_code/outputs/final46_six_methods/run_summary.json
+- source_code/outputs/final46_six_methods/config_used.json
+- source_code/outputs/final46_six_methods/environment.json
 
-\[
-23 \times 3 \times 3 = 207
-\]
+## 1. Repository purpose
 
-The four thresholding methods produce:
+This package contains the original proposal, implementation, NAB data, Final46 experiment outputs, statistical reports, automated tests, verification material, and historical V1/V2 evidence for:
 
-\[
-207 \times 4 = 828
-\]
+**Robust Adaptive Thresholding for LSTM Autoencoder-Based Anomaly Detection in Streaming Time Series**
 
-method-level evaluation records.
-
-The original benchmark evidence is preserved in:
-
-`source_code/outputs/version2_normal_only_fpr05/`
-
-The clean-normal high-variance reanalysis is preserved in:
-
-`source_code/outputs/version2_normal_only_fpr05_normal_volatility_reaudited_20261115/`
-
-The corrected reporting outputs are preserved in:
-
-`source_code/outputs/version2_normal_only_fpr05_reporting_corrected_20261115/`
-
-The authoritative H2 high-variance analysis is in `source_code/outputs/version2_normal_only_fpr05_normal_volatility_reaudited_20261115/`.
-
----
-
-## 3. Package Inventory
-
-| Path | Description |
-|---|---|
-| `README.md` | Main research overview, results, methodology, and conclusions |
-| `README_FIRST.md` | Package navigation and recommended reading order |
-| `FINAL_PACKAGE_MANIFEST.md` | This package inventory and verification summary |
-| `PROPOSAL_HYPOTHESIS_ALIGNMENT.md` | Alignment between the original proposal and implemented hypotheses |
-| `WEB_REFERENCES.md` | External references used by the project |
-| `proposal/` | Original research proposal |
-| `source_code/` | Main implementation, configuration, tests, datasets, and experiment outputs |
-| `source_code/config_v2.json` | Primary benchmark experiment configuration |
-| `source_code/data/nab/` | NAB datasets used in the benchmark |
-| `source_code/outputs/version2_normal_only_fpr05/` | Original benchmark metrics, prediction traces, tuning records, audits, summaries, and plots |
-| `source_code/outputs/version2_normal_only_fpr05_reporting_corrected_20261115/` | Floating-point corrected reporting tables and plots |
-| `source_code/outputs/version2_normal_only_fpr05_normal_volatility_reaudited_20261115/` | Clean-normal H2 reanalysis, updated metrics, statistical tables, plots, and audit; reuses original predictions without duplicating them |
-| `analysis_tools/recompute_v2_normal_volatility_metrics.py` | Recomputes H2 high-variance metrics from saved predictions without model retraining |
-| `version1_reference/` | Historical V1 source-code reference |
-| `verified_results/` | Archived V1 benchmark evidence |
-| `reports/DATASET_COHORT_AUDIT.md` and `.csv` | Dataset-by-dataset eligibility and test-label coverage audit |
-| `reports/REVIEW_BUILD_CHANGELOG.md` | Review corrections and verification record |
-| `reports/` | Detailed results audit and reproducibility documentation |
-| `evaluation/` | Evaluation material |
-| `analysis_tools/` | Supporting analysis utilities |
-| `verification/` | Verification evidence |
-
----
-
-## 4. Primary Benchmark Configuration
-
-The primary benchmark uses the following experimental configuration:
+## 2. Final46 configuration
 
 | Parameter | Value |
 |---|---:|
-| Chronological training partition | 60% |
-| Chronological validation partition | 20% |
-| Chronological test partition | 20% |
-| Window sizes | 30, 50, 100 |
-| Random seeds | 15, 42, 123 |
+| Train / validation / test | 60% / 20% / 20%, chronological |
 | Hidden size | 64 |
 | Latent size | 32 |
 | Maximum epochs | 40 |
@@ -124,299 +43,105 @@ The primary benchmark uses the following experimental configuration:
 | Learning rate | 0.001 |
 | Weight decay | 0.00001 |
 | Early-stopping patience | 6 |
-| Normal-only training | Enabled |
-| Validation FPR target budget | 0.05 |
+| Sequence lengths | 30, 50, 100 |
+| Model seeds | 15, 42, 123 |
+| Normal-only training windows | Enabled |
+| Validation FPR target | 0.05 |
+| High-variance reference percentile | 75th percentile of clean-normal training histories |
 
-The configuration is stored in:
+The latent size of 32 is a configured architecture choice. The Final46 experiment does not include a separate latent-dimension ablation proving that 32 is optimal.
 
-`source_code/config_v2.json`
+## 3. Final46 threshold methods
 
-### Dataset Eligibility
+1. Fixed percentile.
+2. Fixed mean plus k standard deviations.
+3. Causal rolling mean plus validation-calibrated k standard deviations (legacy internal identifier: rolling_mean_3sigma).
+4. Moving median plus raw MAD (original proposed method).
+5. Moving median plus scaled MAD (1.4826 × MAD).
+6. Moving median plus IQR scale (IQR / 1.3489795).
 
-The implemented eligibility conditions are:
+The raw-MAD method is the method tested against the original proposal's fixed baselines in H1. Scaled MAD and IQR are additional exploratory ablations.
 
-1. The chronological test partition begins at `int(n * 0.80)`.
-2. At least one complete labeled anomaly event lies wholly within the test partition.
-3. The test partition contains positive anomaly labels.
-4. At least 100 normal-only training windows are available at window size 100.
-5. At least 50 clean validation windows are available.
+## 4. Final results source files
 
-The 13 additional datasets passed the screening conditions. The original 10 V1 datasets were retained without reapplying that screen: four have complete positive test events and six have no positive test labels. The final run therefore contains 17 event-evaluable datasets and six no-positive-test datasets. The six are retained as negative-only test cases for supplementary false-alarm analysis; do not describe all 23 as event-eligible.
-
----
-
-## 5. Thresholding Methods
-
-The experiment evaluates four methods:
-
-| Method identifier | Description |
+| File | Role |
 |---|---|
-| `fixed_percentile` | Fixed reconstruction-error percentile threshold |
-| `fixed_mean_k_sigma` | Fixed mean-plus-k-standard-deviations threshold |
-| `moving_median_lambda_mad` | Proposed moving-median plus MAD threshold |
-| `rolling_mean_3sigma` | Validation-calibrated causal rolling mean + k standard deviations (legacy internal identifier) |
-
-The LSTM Autoencoder generates reconstruction errors. The thresholding methods convert those continuous anomaly scores into binary anomaly predictions.
-
----
-
-## 6. Primary Benchmark Results
-
-| Threshold method | Mean F1 | Mean FPR | Mean event recall | Mean NAB-style score |
-|---|---:|---:|---:|---:|
-| Fixed mean + kσ | 0.309673 | 0.134183 | 0.957516 | -330.948530 |
-| Fixed percentile | 0.307111 | 0.138636 | 0.968410 | -368.674679 |
-| Proposed moving median + MAD | 0.128007 | 0.029905 | 0.697168 | -27.367282 |
-| Rolling mean + kσ (validation-calibrated) | 0.048590 | 0.019042 | 0.789760 | -23.640771 |
-
-Mean F1 and FPR are reported across the 23-dataset benchmark. Event-recall interpretation uses the 17 event-evaluable datasets because six selected datasets have no positive test labels.
-
-### Main Finding
-
-The proposed MAD method reduced mean FPR by approximately:
-
-- 78.4% relative to fixed percentile.
-- 77.7% relative to fixed mean plus kσ.
-
-However, its mean F1 and event recall were substantially lower than those of both fixed baselines.
-
-The results indicate a trade-off between reducing false positives and maintaining anomaly-detection performance. They do not establish overall superiority of the proposed method.
-
----
-
-## 7. Hypothesis Outcomes
-
-### H1 — F1 Improvement
-
-**Not supported.**
-
-On the 17 event-evaluable datasets:
-
-- Proposed MAD versus fixed percentile: mean difference -0.242316, Wilcoxon p = 0.000015, Holm-adjusted p = 0.000046.
-- Proposed MAD versus fixed mean plus kσ: mean difference -0.245783, Wilcoxon p = 0.000015, Holm-adjusted p = 0.000046.
-
-The fixed baselines performed better on all 17 paired datasets in both comparisons.
-
-### H2 — False-Positive Reduction
-
-**Some dataset-level improvements observed; aggregate evidence inconclusive after Holm correction.**
-
-After the clean-normal volatility reanalysis, H2 uses 20 paired datasets. Holm-adjusted p-values are 0.063758 versus fixed percentile, 0.063758 versus fixed mean + kσ, and 0.069577 versus rolling mean + kσ. The unadjusted p-values versus the fixed baselines are below 0.05, but none of the adjusted comparisons reaches the 0.05 threshold.
-
-### H3 — Earlier Detection
-
-**Descriptive only.**
-
-No inferential test establishes an earlier-detection advantage for the proposed method. Its mean delay fraction was higher than both fixed baselines in the event-evaluable cohort.
-
----
-
-## 8. Verification Records
-
-The independent prediction and metric integrity audit recorded:
-
-- 207 expected prediction files; 207 present.
-- 828 expected evaluation rows; 828 present.
-- Zero missing prediction files.
-- Zero prediction row-count mismatches.
-- Zero label-count mismatches.
-- Zero confusion-matrix mismatches.
-- Zero ROC-AUC recomputation mismatches.
-- Zero PR-AUC recomputation mismatches.
-- Zero unexpected missing AUC values.
-- Normal-only training checks passed for all 207 model fits.
-- Zero training-window accounting errors.
-- Zero training splits with zero usable windows.
-
-The event audit recorded:
-
-- 24 complete test events.
-- Zero partial test events.
-- Zero test points inside partial events.
-
-These checks support the internal numerical consistency of saved predictions and evaluation records. They do not independently establish methodological validity or generalization to unseen datasets.
-
----
-
-## 9. Statistical Reporting Correction
-
-A floating-point tie-handling issue was identified in pairwise directional reporting. Extremely small numerical differences could previously be counted as strict improvements or regressions.
-
-The reporting implementation was corrected using an absolute numerical-zero tolerance of `1e-12`.
-
-A regression test was added to verify the behavior.
-
-After the correction:
-
-- 20 automated tests passed.
-- 10 of 10 report files passed the original-versus-corrected audit.
-- All 8 statistical output rows were independently reproduced.
-- The statistical output reproduction audit passed.
-- No changes were made to model training, saved predictions, or raw benchmark metrics.
-
-Corrected reports and plots are stored in:
-
-`source_code/outputs/version2_normal_only_fpr05_reporting_corrected_20261115/`
-
-The authoritative H2 high-variance analysis is in `source_code/outputs/version2_normal_only_fpr05_normal_volatility_reaudited_20261115/`.
-
-The original benchmark outputs remain preserved in their separate directory.
-
----
-
-## 10. Methodological Disclosures
-
-The primary benchmark must not be described as fully label-free unsupervised learning.
-
-The experimental protocol uses labels in the following ways:
-
-1. NAB labels exclude anomaly-touching windows from training.
-2. The scaler is fitted on normal training rows only.
-3. Validation labels are used during threshold calibration.
-4. Test-label properties are used in eligible-dataset selection.
-
-The use of test-label properties for cohort selection introduces potential selection bias. Results should be interpreted as conditional on the selected eligible cohort.
-
-The configured 5% validation FPR is a target budget, not a guaranteed upper bound. If no candidate satisfies it, the tuner minimizes FPR among the available candidates.
-
-### Datasets Without Positive Test Labels
-
-Six selected datasets have no positive test labels:
-
-- `realAWSCloudwatch/ec2_cpu_utilization_53ea38.csv`
-- `realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv`
-- `realTraffic/TravelTime_387.csv`
-- `realTraffic/TravelTime_451.csv`
-- `realTweets/Twitter_volume_AAPL.csv`
-- `realTweets/Twitter_volume_AMZN.csv`
-
-Their F1 is zero for all methods because their test partitions have no positive labels. They remain in the 23-dataset cohort and affect all-cohort F1 averages. Event recall is interpreted using the remaining 17 event-evaluable datasets.
-
-### NAB-Style Score
-
-The reported NAB-style score is a custom score calculated on the chronological test partition.
-
-It is not the official full-corpus NAB leaderboard score and must be described accordingly.
-
----
-
-## 11. Earlier Benchmark (V1)
-
-The earlier experiment is preserved separately:
-
-| Component | V1 result |
-|---|---:|
-| NAB datasets | 10 |
-| Window sizes | 3 |
-| Random seeds | 3 |
-| Model fits | 90 |
-| Evaluation rows | 360 |
-| Prediction files | 90 |
-
-Independent recomputation of archived V1 F1, FPR, PR-AUC, and average precision matched the archived values within `1e-9`.
-
-V1 training included all training windows without normal-only filtering. Nine of the ten files had labeled anomalies in their training partitions, creating a potential training-contamination concern.
-
-V1 and the primary benchmark have different protocols. Their aggregate metrics must not be combined.
-
-V1 evidence is preserved in:
-
-`verified_results/V1_full_gpu_benchmark_restart/`
-
-The historical source code is preserved in:
-
-`version1_reference/`
-
----
-
-## 12. Software Environment
-
-The completed primary benchmark used:
-
-| Component | Environment |
-|---|---|
-| Operating environment | Ubuntu under WSL2 |
-| Python | 3.12.3 |
-| TensorFlow | 2.21.0 |
-| GPU | NVIDIA RTX 4050 Laptop GPU |
-| GPU execution | CUDA-compatible TensorFlow execution; cuDNN loaded |
-
-The working virtual environment was:
-
-`~/venvs/lstm_tf221_gpu`
-
-The automated test command is:
-
-```bash
-cd source_code
-python run_tests.py
-```
-
-The current threshold-ablation candidate test suite passes 22 tests. The archived V2 benchmark report recorded 20 tests at the time of its original audit.
-
----
-
-## 13. Reproduction Instructions
-
-To reproduce the primary benchmark without overwriting the archived outputs:
-
-```bash
-cd source_code
-
-python run_experiment.py \
-  --config config_v2.json \
-  --output-dir outputs/primary_benchmark_reproduction \
-  --device cuda
-```
-
-This command trains the models again and may require substantial GPU resources.
-
-It is not necessary simply to inspect the saved benchmark evidence.
-
-Full instructions are available in:
-
-`reports/REPRODUCIBILITY_AND_RUN_STEPS.md`
-
----
-
-## 14. Interpretation and Research Integrity
-
-The package preserves favorable and unfavorable findings.
-
-The proposed MAD method reduced false-positive rates but achieved lower mean F1 and event recall than the two fixed baselines. H1 was not supported, H2 was inconclusive after multiple-comparison correction, and H3 remains descriptive.
-
-The limitations involving label-informed training, validation calibration, test-label-informed cohort selection, and custom NAB-style scoring are disclosed throughout the documentation.
-
-The verification results establish internal consistency of the archived experiment. They do not establish universal superiority, external validity, or production readiness.
-
----
-
-## 15. Final Package Status
-
-The submission package contains:
-
-- Original research proposal.
-- Main research overview.
-- Package navigation guide.
-- Primary benchmark source code and configuration.
-- NAB datasets used in the experiment.
-- Completed benchmark metrics and prediction traces.
-- Corrected statistical reporting tables and plots.
-- Automated tests and verification evidence.
-- Historical V1 source reference and benchmark evidence.
-- Detailed methodology audit.
-- Reproducibility instructions.
-- External references.
-
-The package is intended to provide a transparent and reproducible record of the research implementation and its experimental findings.
-
-
-## New candidate additions (2026-11-15)
-
-- `reports/THRESHOLD_ABLATION_PROTOCOL.md` — candidate methodology and interpretation rules.
-- `reports/REPRODUCIBILITY_AND_RUN_STEPS.md` — updated tests, smoke-run, and full GPU run commands.
-- `source_code/src/thresholds.py` — raw MAD, scaled MAD, and IQR robust scale variants plus no-positive-validation FPR-budget fallback.
-- `source_code/run_experiment.py` — six-method evaluation and compressed calibration-trace saving.
-- `source_code/tests/test_pipeline.py` — tests for robust scale variants and the no-positive-validation fallback.
-
-The candidate passed 22 tests and a one-fit CPU smoke run. Its full GPU benchmark has not yet been run; the archived V2 outputs remain the completed results until the candidate run is executed and independently audited.
+| run_summary.json | Dataset, fit, row, method, and evaluation-population metadata |
+| config_used.json | Configuration snapshot stored with the benchmark |
+| environment.json | Recorded runtime environment |
+| test_metrics.csv | Method-level held-out test metrics |
+| benchmark_method_summary.csv | Dataset-level summary with metric-specific counts |
+| threshold_ablation_summary.csv | Dataset-macro descriptive six-method comparison |
+| dataset_method_summary.csv | Dataset/method summaries |
+| per_dataset_comparison.csv | Per-dataset method comparisons |
+| pairwise_proposed_vs_baselines.csv | Pairwise proposed-method comparisons |
+| statistical_tests.csv | Prespecified H1/H2/H3 comparisons and Holm correction |
+| hypothesis_outcomes.csv | Final hypothesis decisions |
+| research_question_results.md | Generated research-question summary |
+| validation_tuning.csv | Selected threshold parameters and validation metrics |
+| dataset_split_audit.csv | Split, label, and eligibility audit |
+| high_variance_fpr_by_dataset.csv | High-variance false-positive comparisons |
+| comparison_by_window_size.csv | Window-size analysis |
+| domain_comparison.csv and domain_improvement_summary.csv | Exploratory domain analysis |
+| seed_variability.csv | Seed-variability evidence |
+| predictions/ | Timestamp-aligned predictions and thresholds |
+| calibration_traces/ | Saved reconstruction-error traces for threshold re-analysis |
+| plots/ and eda/ | Figures and exploratory summaries |
+
+## 5. Evaluation populations
+
+| Population | Number of datasets | Use |
+|---|---:|---|
+| Full selected cohort | 46 | Overall point false-alarm analysis |
+| Positive-test cohort | 18 | Point-level F1, precision, recall, ROC-AUC, PR-AUC |
+| Complete-event cohort | 17 | Event recall, delay, NAB-style score |
+| High-variance normal-test cohort | 42 | High-variance FPR |
+
+Twenty-eight datasets have no positive anomaly points in their held-out test partition. They remain useful as negative-only cases for false-alarm analysis; they cannot establish positive-event detection performance. One additional dataset has positive test points but no complete test event, so the positive-test and complete-event populations differ.
+
+## 6. Main interpretation
+
+- H1 is not supported: raw MAD has significantly lower F1 than both fixed baselines on the 18 positive-test datasets after Holm correction.
+- H2 is mixed: raw MAD has significantly lower high-variance FPR than the fixed baselines, but significantly higher high-variance FPR than the rolling comparator.
+- H3 is descriptive only: raw MAD has higher mean NAB-style test scores than the two fixed baselines, but the paired differences are not statistically significant after Holm correction. It does not establish superiority or formal non-inferiority.
+
+The NAB-style score is a custom score on complete anomaly events in held-out test partitions, not the official full-corpus NAB leaderboard score.
+
+## 7. Historical experiments
+
+Historical evidence is preserved and must not be combined with Final46.
+
+| Version | Cohort | Fits | Methods | Result rows | Status |
+|---|---:|---:|---:|---:|---|
+| V1 | 10 datasets | 90 | 4 | 360 | Historical original experiment |
+| V2 | 23 datasets | 207 | 4 | 828 | Historical normal-only benchmark |
+| Final46 | 46 datasets | 414 | 6 | 2,484 | Authoritative completed benchmark |
+
+See HISTORICAL_EXPERIMENTS/README.md for the original paths and context.
+
+## 8. Reproducibility and tests
+
+Use the instructions in FINAL_BENCHMARK/REPRODUCIBILITY.md. A full reproduction trains 414 models and must use a new output directory. Merely inspecting saved results does not require retraining.
+
+Run the automated tests from source_code/ with python run_tests.py. The latest development session reported 26/26 passing; rerun on the checkout being reviewed and record the actual output before academic submission.
+
+## 9. Important limitations
+
+- Normal-only training uses NAB labels to filter training windows; it is label-informed, not fully label-free.
+- Validation labels are used to select threshold parameters under a 5% validation FPR target.
+- Dataset selection and metric eligibility should be fully disclosed.
+- The Final46 result directory includes predictions and calibration traces; the directory inventory does not show a saved models/ checkpoint folder. Do not claim all 414 weight checkpoints are archived without verifying another location.
+- The original proposal's raw-MAD method did not outperform the fixed F1 baselines.
+- Domain analyses are exploratory and have small sample sizes.
+- The 32-dimensional latent setting has not been established as optimal by an ablation.
+
+## 10. Repository navigation
+
+- README.md — short overview.
+- START_HERE.md — recommended reading order.
+- FINAL_BENCHMARK/ — teacher-facing Final46 guide and report.
+- source_code/ — implementation, tests, data, and canonical outputs.
+- HISTORICAL_EXPERIMENTS/ — historical-version navigation.
+- proposal/ — original proposal.
+- reports/ — audit history and supporting documentation.
+- evaluation/ — historical V1 evaluation package.
