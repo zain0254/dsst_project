@@ -1,3 +1,5 @@
+> **Historical protocol notice:** This document records the threshold-ablation candidate protocol that preceded the completed Final46 benchmark. The candidate was subsequently evaluated in Final46. Use `source_code/outputs/final46_six_methods/` and `FINAL_BENCHMARK/FINAL_RESULTS_AND_FINDINGS.md` for the completed results. The candidate-stage statement below that the full benchmark was still pending is historical and must not be read as current status.
+
 # Threshold Ablation Candidate — Protocol and Interpretation
 
 **Status:** Candidate implementation awaiting the full GPU benchmark. No new full-benchmark F1, NAB-style, or event metrics are claimed in this document.
