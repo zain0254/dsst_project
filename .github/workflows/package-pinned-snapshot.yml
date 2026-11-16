@@ -1,0 +1,36 @@
+name: Temporary pinned repository snapshot
+on:
+  push:
+    branches:
+      - chatgpt/package-snapshot-20261116
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Build pinned source archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="6431fe4708080bdf3f769ed6a38fed0cbaed34d8"
+          mkdir -p snapshot/dsst_project
+          git archive --format=tar "$BASE" | tar -xf - -C snapshot/dsst_project
+          printf '%s\n' "$BASE" > snapshot/BASE_COMMIT.txt
+          cd snapshot
+          zip -qr ../dsst_project_base_snapshot.zip dsst_project BASE_COMMIT.txt
+          cd ..
+          sha256sum dsst_project_base_snapshot.zip > dsst_project_base_snapshot.zip.sha256
+      - name: Upload pinned source snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: dsst-project-base-snapshot
+          path: |
+            dsst_project_base_snapshot.zip
+            dsst_project_base_snapshot.zip.sha256
+          if-no-files-found: error
+          retention-days: 2
